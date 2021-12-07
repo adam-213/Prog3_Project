@@ -1,0 +1,3 @@
+/mnt/e/Docs_Uniba/Prog 3/Project/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/e/Docs_Uniba/Prog 3/Project/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/e/Docs_Uniba/Prog 3/Project/cmake-build-debug/CMakeFiles/Project.dir
