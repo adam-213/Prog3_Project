@@ -25,11 +25,11 @@ TEST(Date,PutDate2_Incorrect_dates)
     ASSERT_FALSE(date.putDate(d1));
     ASSERT_FALSE(date.putDate(29,2,2001));
     ASSERT_FALSE(date.putDate(0,12,2000));
-    ASSERT_FALSE(date.putDate(12,-2,1111));
+    ASSERT_FALSE(date.putDate(12,0,28));
     ASSERT_FALSE(date.putDate(d2));
 }
 
-TEST(Date,PutDate3_Operators)
+TEST(Date,Operators)
 {
     Date date{};
     Date date2{};
@@ -42,6 +42,36 @@ TEST(Date,PutDate3_Operators)
     ASSERT_TRUE(date != date2);
 }
 
+TEST(Date,Operators2)
+{
+    Date date(29,1,2000);
+    Date date2;
+    date2.putDate("1-3-2000");
+    Date date3;
+    date3.putDate(date2.getDate());
+    ASSERT_TRUE(date < date2);
+    ASSERT_TRUE(date2 == date3);
+    ASSERT_TRUE(date3 != date);
+    ASSERT_FALSE(date == date3);
+    ASSERT_FALSE(date >= date2);
+    ASSERT_FALSE(date3 <= date);
+    ASSERT_TRUE(date2 <= date3);
+}
+
+TEST(Date, Odd_Dates_Operators)
+{
+    Date date1(1,1,0);
+    Date date2(31,12,-1);
+    Date date3 (27,8,1919);
+    ASSERT_TRUE(date1 != date2);
+    ASSERT_TRUE(date2 != date3);
+    ASSERT_TRUE(date3 != date1);
+    ASSERT_TRUE(date1 >= date2);
+    ASSERT_TRUE(date1 <= date3);
+    ASSERT_TRUE(date3 > date2);
+    ASSERT_FALSE(date1 == date2);
+}
+
 TEST(Date,Constructors)
 {
     Date date(1,1,1970);
@@ -51,4 +81,15 @@ TEST(Date,Constructors)
     date3.putDate(1,1,1970);
     ASSERT_TRUE(date == date2);
     ASSERT_TRUE(date2 == date3);
+}
+
+TEST(Date, Negative_Date)
+{
+    //Day and month are assumed to be typos if they are != 0 and corrected accordingly
+    Date negday(-1,1,1970);
+    Date date(1,1,1970);
+    ASSERT_TRUE(date == negday);
+    Date negmon(1,-3,1970);
+    Date date2(1,3,1970);
+    ASSERT_TRUE(date2 == negmon);
 }

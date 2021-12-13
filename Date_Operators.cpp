@@ -1,5 +1,4 @@
-#include "date.h"
-
+#include "Date.h"
 
 
 bool Date::operator==(const Date &otherDate) const

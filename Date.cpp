@@ -2,10 +2,9 @@
 
 bool Date::putDate(int day0, int month0, int year0)
 {
-    if (1 > day0)
-    {
-        return false;
-    }
+    day0 = day0 < 0 ? -day0 : day0;
+    month0 = month0 < 0 ? -month0 : month0;
+    if (day0 == 0) return false;
     switch (month0)
     {
         case 1:
