@@ -12,7 +12,7 @@ class Fridge
     int overallFullness;
     std::vector<int> shelfSpace; //TODO this will have to be configured manually maybe as a constructor (Different types of fridges)
 
-
+//These coments are ideas only nothing more
 public:
     Item get(std::string name); //preferably return the one closest to expiraton date, may make specification later
 
@@ -47,6 +47,8 @@ public:
 
     void InvFromFile(std::string filename);
 
+
+    //There will not be any ASCII art in this project.
 
     /*
      * There may be an overhaul of the item and fridge classes with the fact that items take up space
