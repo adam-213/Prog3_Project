@@ -29,8 +29,8 @@ CMakeFiles/Project.dir/DateTests.cpp.o: ../Date.h
 CMakeFiles/Project.dir/DateTests.cpp.o: ../DateTests.cpp
 CMakeFiles/Project.dir/DateTests.cpp.o: ../gtest/gtest.h
 
+CMakeFiles/Project.dir/Date_Operators.cpp.o: ../Date.h
 CMakeFiles/Project.dir/Date_Operators.cpp.o: ../Date_Operators.cpp
-CMakeFiles/Project.dir/Date_Operators.cpp.o: ../date.h
 
 CMakeFiles/Project.dir/Date_Static.cpp.o: ../Date.h
 CMakeFiles/Project.dir/Date_Static.cpp.o: ../Date_Static.cpp

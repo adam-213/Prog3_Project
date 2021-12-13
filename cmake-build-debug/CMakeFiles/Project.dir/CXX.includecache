@@ -258,11 +258,7 @@ string
 sstream
 -
 
-/mnt/e/Docs_Uniba/Prog 3/Project/Date_Static.cpp
-Date.h
-/mnt/e/Docs_Uniba/Prog 3/Project/Date.h
-
-/mnt/e/Docs_Uniba/Prog 3/Project/Date_Static_Tests.cpp
+/mnt/e/Docs_Uniba/Prog 3/Project/DateTests.cpp
 gtest/gtest.h
 /mnt/e/Docs_Uniba/Prog 3/Project/gtest/gtest.h
 Date.h
