@@ -53,5 +53,5 @@ TEST(Item,Constructor4)
     ASSERT_EQ("12-12-2021",item4.getExpirationDate());
     ASSERT_FALSE(item4.isBad());
     ASSERT_EQ(18973,item4.goodDays());
-
 }
+ //I'm not sure how to change global variables inside the tests - methods isBad, goodDays etc grab global variable DATE which has to be const
