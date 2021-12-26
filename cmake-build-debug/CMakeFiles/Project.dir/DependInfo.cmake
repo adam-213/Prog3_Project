@@ -22,6 +22,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/mnt/e/Docs_Uniba/Prog 3/Project/Item.cpp" "/mnt/e/Docs_Uniba/Prog 3/Project/cmake-build-debug/CMakeFiles/Project.dir/Item.cpp.o"
   "/mnt/e/Docs_Uniba/Prog 3/Project/ItemTests.cpp" "/mnt/e/Docs_Uniba/Prog 3/Project/cmake-build-debug/CMakeFiles/Project.dir/ItemTests.cpp.o"
   "/mnt/e/Docs_Uniba/Prog 3/Project/Orders.cpp" "/mnt/e/Docs_Uniba/Prog 3/Project/cmake-build-debug/CMakeFiles/Project.dir/Orders.cpp.o"
+  "/mnt/e/Docs_Uniba/Prog 3/Project/Shelf.cpp" "/mnt/e/Docs_Uniba/Prog 3/Project/cmake-build-debug/CMakeFiles/Project.dir/Shelf.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

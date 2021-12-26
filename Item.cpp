@@ -14,13 +14,12 @@ Item Item::get()
 {
     return *this;
 }
-
-std::string Item::getName()
+std::string Item::getName() const
 {
     return name;
 }
 
-std::string Item::getExpirationDate()
+std::string Item::getExpirationDate() const
 {
     return expiration.getDate();
 }
@@ -80,6 +79,9 @@ Item::Item(std::string name0, const Date &expirationDate)
     name = std::move(name0);
     expiration = expirationDate;
 }
+
+
+
 
 Item::Item()
 = default;

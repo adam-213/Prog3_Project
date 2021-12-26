@@ -153,6 +153,12 @@
 		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Orders.h">
 			<Option target="Project"/>
 		</Unit>
+		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Shelf.cpp">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Shelf.h">
+			<Option target="Project"/>
+		</Unit>
 		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

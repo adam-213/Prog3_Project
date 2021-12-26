@@ -1,23 +1,32 @@
 #pragma once
 
+#include "Shelf.h"
 #include "Item.h"
 #include "FileOps.h"
 #include "Orders.h"
 
 class Fridge
 {
-    std::vector<Item> fullInventory;
-    std::vector<std::vector<Item>> inventoryByShelf;
-    std::vector<Item> onOrder;
-    int overallFullness;
-    std::vector<int> shelfSpace; //TODO this will have to be configured manually maybe as a constructor (Different types of fridges)
+    std::vector<Shelf> shelves;
+    std::vector<Item> onOrder; //things that are on order an will arrive in "future"
+private:
+    void updateFullness();
 
-//These coments are ideas only nothing more
 public:
-    Item get(std::string name); //preferably return the one closest to expiraton date, may make specification later
+    //* Returns Item with the closest expiration date to current Date and matching name
+    Item *get(std::string name);
 
-    bool put(Item); // I don't know how the thing will work yet preferably just enter what it needs to initialize Item and it will do it automagicaly
-    //TODO overload with string input
+    //* Inserts Item into the first shelf that has space for it. Returns number of the shelf or -1 if item couldn't be inserted
+    int put(Item &&item);
+
+    //* Insert Item into the shelf with correct index else return -1
+    int put(Item &&item, int shelfNum);
+
+    //* Create item with name and expiration date and insert it to the first shelf with enough space else return -1
+    int put(std::string name, std::string date);
+
+    //* Create item with name and expiration date and try inserting it to the #shelf with enough space else return -1
+    int put(std::string name, std::string date);
 
     //* Returns vector of items whose expiration dated is within a constant from current day
     std::vector<Item> closeToExpiration();
@@ -26,18 +35,10 @@ public:
     int expired();
 
     //* All thy things from all thy fridge
-    std::string inventory();
+    std::vector<Item> inventory();
 
     //* All things on the # shelf
-    std::string inventory(int shelf);
-
-    //* Put item on order TODO probably make them arrive in some number of days and be automatically put into the fridge
-    std::string order(Item);
-
-    //* Put vector of items on order ^^^^
-    std::string order(std::vector<Item>);
-
-    void updateFullness();
+    std::vector<Item> inventory(int shelf);
 
     //* number of free "slots" in the fridge
     int free();
@@ -45,19 +46,14 @@ public:
     //* number of free "slots" on a given shelf
     int free(int shelf);
 
+
+    //TODO Later
     void InvFromFile(std::string filename);
 
+    //* Put item on order TODO probably make them arrive in some number of days and be automatically put into the fridge
+    bool order(Item);
 
-    //There will not be any ASCII art in this project.
-
-    /*
-     * There may be an overhaul of the item and fridge classes with the fact that items take up space
-     * Two leading ideas are
-     * Mimic physical world - all items have dimensions and attributes if they are stackable etc.
-     * Kinda bland, this is world of magical fridge so limits of the physical don't apply.
-     *
-     * Make items take space according to the length of their names ->
-     * apple takes less space than ketchup which takes less space than pan with pasta;
-     */
+    //* Put vector of items on order ^^^^
+    std::string order(std::vector<Item>);
 
 };

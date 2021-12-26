@@ -23,9 +23,9 @@ public:
     bool put(std::string name0, const std::string& expirationDate0);
 
     //* for taking inventory etc.
-    std::string getName();
+    std::string getName() const;
     //* Obvious ?
-    std::string getExpirationDate();
+    std::string getExpirationDate() const;
 
     //* return Expiration date - global variable date in days
     int goodDays();

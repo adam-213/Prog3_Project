@@ -17,6 +17,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Project.dir/Item.cpp.o"
   "CMakeFiles/Project.dir/ItemTests.cpp.o"
   "CMakeFiles/Project.dir/Orders.cpp.o"
+  "CMakeFiles/Project.dir/Shelf.cpp.o"
   "Project"
   "Project.pdb"
 )

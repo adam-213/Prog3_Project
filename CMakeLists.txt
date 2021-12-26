@@ -20,7 +20,7 @@ set(SOURCE_FILES
         GoogleTest/gtest-test-part.cc
         GoogleTest/gtest-typed-test.cc
         GoogleTest/gtest.cc
-        GoogleTest/gtest_main.cc Date_Operators.cpp Date_Static.cpp FileOps.h FileOps.cpp Orders.h Fridge.h Orders.cpp Fridge.cpp Date_Static_Tests.cpp)
+        GoogleTest/gtest_main.cc Date_Operators.cpp Date_Static.cpp FileOps.h FileOps.cpp Orders.h Fridge.h Orders.cpp Fridge.cpp Date_Static_Tests.cpp Shelf.cpp Shelf.h)
 
 
 

@@ -609,6 +609,33 @@ Orders.cpp.s:
 	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Orders.cpp.s
 .PHONY : Orders.cpp.s
 
+Shelf.o: Shelf.cpp.o
+
+.PHONY : Shelf.o
+
+# target to build an object file
+Shelf.cpp.o:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Shelf.cpp.o
+.PHONY : Shelf.cpp.o
+
+Shelf.i: Shelf.cpp.i
+
+.PHONY : Shelf.i
+
+# target to preprocess a source file
+Shelf.cpp.i:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Shelf.cpp.i
+.PHONY : Shelf.cpp.i
+
+Shelf.s: Shelf.cpp.s
+
+.PHONY : Shelf.s
+
+# target to generate assembly for a file
+Shelf.cpp.s:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Shelf.cpp.s
+.PHONY : Shelf.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -672,6 +699,9 @@ help:
 	@echo "... Orders.o"
 	@echo "... Orders.i"
 	@echo "... Orders.s"
+	@echo "... Shelf.o"
+	@echo "... Shelf.i"
+	@echo "... Shelf.s"
 .PHONY : help
 
 

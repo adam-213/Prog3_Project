@@ -14,7 +14,7 @@ public:
     Date();
     //*Integer Constructor without default values
     Date(int day0, int month0, int year0);
-    //* String constructof in format DD-MM-YYYY, Year technically can be anything if it's not negative
+    //* String constructor in format DD-MM-YYYY, Year technically can be anything
     explicit Date(std::string &date);
     //* Year in bool out with info if any positive year is leap.
     static bool isLeap(int year);
