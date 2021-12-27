@@ -70,6 +70,36 @@ CMakeFiles/Project.dir/Fridge.cpp.o
  /mnt/e/Docs_Uniba/Prog 3/Project/Item.h
  /mnt/e/Docs_Uniba/Prog 3/Project/Orders.h
  /mnt/e/Docs_Uniba/Prog 3/Project/Shelf.h
+CMakeFiles/Project.dir/Fridge_Base_Tests.cpp.o
+ ../GoogleTest/gtest/gtest-death-test.h
+ ../GoogleTest/gtest/gtest-message.h
+ ../GoogleTest/gtest/gtest-param-test.h
+ ../GoogleTest/gtest/gtest-printers.h
+ ../GoogleTest/gtest/gtest-test-part.h
+ ../GoogleTest/gtest/gtest-typed-test.h
+ ../GoogleTest/gtest/gtest_pred_impl.h
+ ../GoogleTest/gtest/gtest_prod.h
+ ../GoogleTest/gtest/internal/custom/gtest-port.h
+ ../GoogleTest/gtest/internal/custom/gtest-printers.h
+ ../GoogleTest/gtest/internal/gtest-death-test-internal.h
+ ../GoogleTest/gtest/internal/gtest-filepath.h
+ ../GoogleTest/gtest/internal/gtest-internal.h
+ ../GoogleTest/gtest/internal/gtest-linked_ptr.h
+ ../GoogleTest/gtest/internal/gtest-param-util-generated.h
+ ../GoogleTest/gtest/internal/gtest-param-util.h
+ ../GoogleTest/gtest/internal/gtest-port-arch.h
+ ../GoogleTest/gtest/internal/gtest-port.h
+ ../GoogleTest/gtest/internal/gtest-string.h
+ ../GoogleTest/gtest/internal/gtest-tuple.h
+ ../GoogleTest/gtest/internal/gtest-type-util.h
+ /mnt/e/Docs_Uniba/Prog 3/Project/Date.h
+ /mnt/e/Docs_Uniba/Prog 3/Project/FileOps.h
+ /mnt/e/Docs_Uniba/Prog 3/Project/Fridge.h
+ /mnt/e/Docs_Uniba/Prog 3/Project/Fridge_Base_Tests.cpp
+ /mnt/e/Docs_Uniba/Prog 3/Project/Item.h
+ /mnt/e/Docs_Uniba/Prog 3/Project/Orders.h
+ /mnt/e/Docs_Uniba/Prog 3/Project/Shelf.h
+ /mnt/e/Docs_Uniba/Prog 3/Project/gtest/gtest.h
 CMakeFiles/Project.dir/Fridge_put.cpp.o
  /mnt/e/Docs_Uniba/Prog 3/Project/Date.h
  /mnt/e/Docs_Uniba/Prog 3/Project/FileOps.h

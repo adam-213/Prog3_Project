@@ -1,3 +1,4 @@
+#include <numeric>
 #include "Fridge.h"
 
 bool pairDateComp(const std::pair<int, Item *> lhs, const std::pair<int, Item *> rhs)
@@ -90,6 +91,18 @@ int Fridge::free(int shelf)
 {
     return shelves[shelf].getFreeSpace();
 }
+
+Fridge::Fridge(std::vector<int> shelfSpace)
+{
+    auto c = 0;
+    for(auto &size: shelfSpace)
+    {
+        //this is some cool stuff specifically the emplace back, which takes the params and calls the constructor in place.
+        this->shelves.emplace_back(size,c);
+    }
+    std::accumulate(shelfSpace.begin(),shelfSpace.end(),this->space);
+}
+
 
 
 

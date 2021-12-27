@@ -70,6 +70,36 @@ CMakeFiles/Project.dir/Fridge.cpp.o: ../Item.h
 CMakeFiles/Project.dir/Fridge.cpp.o: ../Orders.h
 CMakeFiles/Project.dir/Fridge.cpp.o: ../Shelf.h
 
+CMakeFiles/Project.dir/Fridge_Base_Tests.cpp.o: ../GoogleTest/gtest/gtest-death-test.h
+CMakeFiles/Project.dir/Fridge_Base_Tests.cpp.o: ../GoogleTest/gtest/gtest-message.h
+CMakeFiles/Project.dir/Fridge_Base_Tests.cpp.o: ../GoogleTest/gtest/gtest-param-test.h
+CMakeFiles/Project.dir/Fridge_Base_Tests.cpp.o: ../GoogleTest/gtest/gtest-printers.h
+CMakeFiles/Project.dir/Fridge_Base_Tests.cpp.o: ../GoogleTest/gtest/gtest-test-part.h
+CMakeFiles/Project.dir/Fridge_Base_Tests.cpp.o: ../GoogleTest/gtest/gtest-typed-test.h
+CMakeFiles/Project.dir/Fridge_Base_Tests.cpp.o: ../GoogleTest/gtest/gtest_pred_impl.h
+CMakeFiles/Project.dir/Fridge_Base_Tests.cpp.o: ../GoogleTest/gtest/gtest_prod.h
+CMakeFiles/Project.dir/Fridge_Base_Tests.cpp.o: ../GoogleTest/gtest/internal/custom/gtest-port.h
+CMakeFiles/Project.dir/Fridge_Base_Tests.cpp.o: ../GoogleTest/gtest/internal/custom/gtest-printers.h
+CMakeFiles/Project.dir/Fridge_Base_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-death-test-internal.h
+CMakeFiles/Project.dir/Fridge_Base_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-filepath.h
+CMakeFiles/Project.dir/Fridge_Base_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-internal.h
+CMakeFiles/Project.dir/Fridge_Base_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-linked_ptr.h
+CMakeFiles/Project.dir/Fridge_Base_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-param-util-generated.h
+CMakeFiles/Project.dir/Fridge_Base_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-param-util.h
+CMakeFiles/Project.dir/Fridge_Base_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-port-arch.h
+CMakeFiles/Project.dir/Fridge_Base_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-port.h
+CMakeFiles/Project.dir/Fridge_Base_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-string.h
+CMakeFiles/Project.dir/Fridge_Base_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-tuple.h
+CMakeFiles/Project.dir/Fridge_Base_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-type-util.h
+CMakeFiles/Project.dir/Fridge_Base_Tests.cpp.o: ../Date.h
+CMakeFiles/Project.dir/Fridge_Base_Tests.cpp.o: ../FileOps.h
+CMakeFiles/Project.dir/Fridge_Base_Tests.cpp.o: ../Fridge.h
+CMakeFiles/Project.dir/Fridge_Base_Tests.cpp.o: ../Fridge_Base_Tests.cpp
+CMakeFiles/Project.dir/Fridge_Base_Tests.cpp.o: ../Item.h
+CMakeFiles/Project.dir/Fridge_Base_Tests.cpp.o: ../Orders.h
+CMakeFiles/Project.dir/Fridge_Base_Tests.cpp.o: ../Shelf.h
+CMakeFiles/Project.dir/Fridge_Base_Tests.cpp.o: ../gtest/gtest.h
+
 CMakeFiles/Project.dir/Fridge_put.cpp.o: ../Date.h
 CMakeFiles/Project.dir/Fridge_put.cpp.o: ../FileOps.h
 CMakeFiles/Project.dir/Fridge_put.cpp.o: ../Fridge.h

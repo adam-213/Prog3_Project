@@ -10,10 +10,12 @@ class Fridge
 {
     std::vector<Shelf> shelves;
     std::vector<Item> onOrder; //things that are on order will arrive in "future"
+    int space;
 private:
-    void updateFullness();
 
 public:
+    explicit Fridge(std::vector<int> shelfSpace);
+
     //* Returns Item with the closest expiration date to current Date and matching name
     Item *get(std::string name);
 
