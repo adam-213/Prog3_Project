@@ -150,33 +150,6 @@ Date.cpp.s:
 	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Date.cpp.s
 .PHONY : Date.cpp.s
 
-DateTests.o: DateTests.cpp.o
-
-.PHONY : DateTests.o
-
-# target to build an object file
-DateTests.cpp.o:
-	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/DateTests.cpp.o
-.PHONY : DateTests.cpp.o
-
-DateTests.i: DateTests.cpp.i
-
-.PHONY : DateTests.i
-
-# target to preprocess a source file
-DateTests.cpp.i:
-	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/DateTests.cpp.i
-.PHONY : DateTests.cpp.i
-
-DateTests.s: DateTests.cpp.s
-
-.PHONY : DateTests.s
-
-# target to generate assembly for a file
-DateTests.cpp.s:
-	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/DateTests.cpp.s
-.PHONY : DateTests.cpp.s
-
 Date_Operators.o: Date_Operators.cpp.o
 
 .PHONY : Date_Operators.o
@@ -258,6 +231,33 @@ Date_Static_Tests.cpp.s:
 	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Date_Static_Tests.cpp.s
 .PHONY : Date_Static_Tests.cpp.s
 
+Date_Tests.o: Date_Tests.cpp.o
+
+.PHONY : Date_Tests.o
+
+# target to build an object file
+Date_Tests.cpp.o:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Date_Tests.cpp.o
+.PHONY : Date_Tests.cpp.o
+
+Date_Tests.i: Date_Tests.cpp.i
+
+.PHONY : Date_Tests.i
+
+# target to preprocess a source file
+Date_Tests.cpp.i:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Date_Tests.cpp.i
+.PHONY : Date_Tests.cpp.i
+
+Date_Tests.s: Date_Tests.cpp.s
+
+.PHONY : Date_Tests.s
+
+# target to generate assembly for a file
+Date_Tests.cpp.s:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Date_Tests.cpp.s
+.PHONY : Date_Tests.cpp.s
+
 FileOps.o: FileOps.cpp.o
 
 .PHONY : FileOps.o
@@ -311,6 +311,60 @@ Fridge.s: Fridge.cpp.s
 Fridge.cpp.s:
 	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Fridge.cpp.s
 .PHONY : Fridge.cpp.s
+
+Fridge_Base_Tests.o: Fridge_Base_Tests.cpp.o
+
+.PHONY : Fridge_Base_Tests.o
+
+# target to build an object file
+Fridge_Base_Tests.cpp.o:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Fridge_Base_Tests.cpp.o
+.PHONY : Fridge_Base_Tests.cpp.o
+
+Fridge_Base_Tests.i: Fridge_Base_Tests.cpp.i
+
+.PHONY : Fridge_Base_Tests.i
+
+# target to preprocess a source file
+Fridge_Base_Tests.cpp.i:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Fridge_Base_Tests.cpp.i
+.PHONY : Fridge_Base_Tests.cpp.i
+
+Fridge_Base_Tests.s: Fridge_Base_Tests.cpp.s
+
+.PHONY : Fridge_Base_Tests.s
+
+# target to generate assembly for a file
+Fridge_Base_Tests.cpp.s:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Fridge_Base_Tests.cpp.s
+.PHONY : Fridge_Base_Tests.cpp.s
+
+Fridge_put.o: Fridge_put.cpp.o
+
+.PHONY : Fridge_put.o
+
+# target to build an object file
+Fridge_put.cpp.o:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Fridge_put.cpp.o
+.PHONY : Fridge_put.cpp.o
+
+Fridge_put.i: Fridge_put.cpp.i
+
+.PHONY : Fridge_put.i
+
+# target to preprocess a source file
+Fridge_put.cpp.i:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Fridge_put.cpp.i
+.PHONY : Fridge_put.cpp.i
+
+Fridge_put.s: Fridge_put.cpp.s
+
+.PHONY : Fridge_put.s
+
+# target to generate assembly for a file
+Fridge_put.cpp.s:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Fridge_put.cpp.s
+.PHONY : Fridge_put.cpp.s
 
 GoogleTest/gtest-death-test.o: GoogleTest/gtest-death-test.cc.o
 
@@ -648,9 +702,6 @@ help:
 	@echo "... Date.o"
 	@echo "... Date.i"
 	@echo "... Date.s"
-	@echo "... DateTests.o"
-	@echo "... DateTests.i"
-	@echo "... DateTests.s"
 	@echo "... Date_Operators.o"
 	@echo "... Date_Operators.i"
 	@echo "... Date_Operators.s"
@@ -660,12 +711,21 @@ help:
 	@echo "... Date_Static_Tests.o"
 	@echo "... Date_Static_Tests.i"
 	@echo "... Date_Static_Tests.s"
+	@echo "... Date_Tests.o"
+	@echo "... Date_Tests.i"
+	@echo "... Date_Tests.s"
 	@echo "... FileOps.o"
 	@echo "... FileOps.i"
 	@echo "... FileOps.s"
 	@echo "... Fridge.o"
 	@echo "... Fridge.i"
 	@echo "... Fridge.s"
+	@echo "... Fridge_Base_Tests.o"
+	@echo "... Fridge_Base_Tests.i"
+	@echo "... Fridge_Base_Tests.s"
+	@echo "... Fridge_put.o"
+	@echo "... Fridge_put.i"
+	@echo "... Fridge_put.s"
 	@echo "... GoogleTest/gtest-death-test.o"
 	@echo "... GoogleTest/gtest-death-test.i"
 	@echo "... GoogleTest/gtest-death-test.s"

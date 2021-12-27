@@ -5,10 +5,11 @@
 #include "FileOps.h"
 #include "Orders.h"
 
+
 class Fridge
 {
     std::vector<Shelf> shelves;
-    std::vector<Item> onOrder; //things that are on order an will arrive in "future"
+    std::vector<Item> onOrder; //things that are on order will arrive in "future"
 private:
     void updateFullness();
 
@@ -16,29 +17,32 @@ public:
     //* Returns Item with the closest expiration date to current Date and matching name
     Item *get(std::string name);
 
-    //* Inserts Item into the first shelf that has space for it. Returns number of the shelf or -1 if item couldn't be inserted
+    //* Inserts Item into the first shelf(from bottom)  that has space for it. Returns shelf number  or -1 if item couldn't be inserted
     int put(Item &&item);
 
-    //* Insert Item into the shelf with correct index else return -1
+    //* Insert Item into the shelf with specified index else return -1
     int put(Item &&item, int shelfNum);
 
-    //* Create item with name and expiration date and insert it to the first shelf with enough space else return -1
+    //* Create item with name and expiration date and insert it to the first shelf(from bottom) with enough space else return -1
     int put(std::string name, std::string date);
 
     //* Create item with name and expiration date and try inserting it to the #shelf with enough space else return -1
-    int put(std::string name, std::string date);
+    int put(std::string name, std::string date, int shelfNum);
 
-    //* Returns vector of items whose expiration dated is within a constant from current day
-    std::vector<Item> closeToExpiration();
+    //* Returns vector of references to items whose expiration dated is within a constant from current day
+    std::vector<Item *> closeToExpiration(int treshold = 5);
+
+    //* Vector of expired references to expired items in the fridge
+    std::vector<Item *> expired();
 
     //* Number of expired things in the fridge
-    int expired();
+    int numOfExpired();
 
     //* All thy things from all thy fridge
-    std::vector<Item> inventory();
+    std::vector<Item*> inventory();
 
     //* All things on the # shelf
-    std::vector<Item> inventory(int shelf);
+    std::vector<Item*> inventory(int shelf);
 
     //* number of free "slots" in the fridge
     int free();

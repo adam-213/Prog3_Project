@@ -1,3 +1,4 @@
+
 #include "Shelf.h"
 
 
@@ -5,31 +6,47 @@ bool Shelf::store(Item &&item)
 {
     if (this->shelfFree >= item.getName().size())
     {
-        if(this->update(item.getName().size()));
-            this->stores[item.getName()] = item;
+        if(this->updateFreeSpace(item.getName().size()))
+            this->stores.push_back(item);
 
         return true;
     }
     return false;
 }
 
-Item *Shelf::get(std::string itemName)
+bool dateComp(const Item* lhs, const Item* rhs)
 {
-    if (this->stores.find(itemName) == this->stores.end())
-        return nullptr;
-    else
-    {
-        this->update(itemName.size());
-        return &this->stores[itemName];
-    }
-
+    if(lhs->getExpirationDate() <= rhs->getExpirationDate())
+        return true;
+    return false;
 }
 
-bool Shelf::update(int change)
+Item *Shelf::get(const std::string itemName)
 {
-    if(shelfFree+change < 0 || shelfFree+change > shelfSpace)
+    std::vector<Item*> temp;
+    for(auto &item: stores)
+    {
+        if(item.getName() == itemName)
+        {
+            temp.push_back(&item);
+        }
+    }
+    if(!temp.empty())
+    {
+        std::sort(temp.begin(), temp.end(), dateComp);
+        this->updateFreeSpace(-itemName.size());
+        return temp[0];
+    }
+    return nullptr;
+}
+
+
+
+bool Shelf::updateFreeSpace(int changeInSpace)
+{
+    if(shelfFree + changeInSpace < 0 || shelfFree + changeInSpace > shelfSpace)
         return false;
-    this->shelfFree += change;
+    this->shelfFree += changeInSpace;
     return true;
 }
 
@@ -45,6 +62,24 @@ Shelf::Shelf(int space, int num)
         }
 
     }
+}
+
+Item *Shelf::getSmallest(const std::string &itemName)
+{
+    std::vector<Item*> temp;
+    for(auto &item: stores)
+    {
+        if(item.getName() == itemName)
+        {
+            temp.push_back(&item);
+        }
+    }
+    if(!temp.empty())
+    {
+        std::sort(temp.begin(), temp.end(), dateComp);
+        return temp[0];
+    }
+    return nullptr;
 }
 
 

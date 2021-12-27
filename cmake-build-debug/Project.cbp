@@ -90,9 +90,6 @@
 		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Date.h">
 			<Option target="Project"/>
 		</Unit>
-		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/DateTests.cpp">
-			<Option target="Project"/>
-		</Unit>
 		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Date_Operators.cpp">
 			<Option target="Project"/>
 		</Unit>
@@ -100,6 +97,9 @@
 			<Option target="Project"/>
 		</Unit>
 		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Date_Static_Tests.cpp">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Date_Tests.cpp">
 			<Option target="Project"/>
 		</Unit>
 		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/FileOps.cpp">
@@ -112,6 +112,12 @@
 			<Option target="Project"/>
 		</Unit>
 		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Fridge.h">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Fridge_Base_Tests.cpp">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Fridge_put.cpp">
 			<Option target="Project"/>
 		</Unit>
 		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/GoogleTest/gtest-death-test.cc">

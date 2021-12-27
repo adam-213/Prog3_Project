@@ -96,18 +96,18 @@ CMakeFiles/Project.dir/Date.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project.dir/Date.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/e/Docs_Uniba/Prog 3/Project/Date.cpp" -o CMakeFiles/Project.dir/Date.cpp.s
 
-CMakeFiles/Project.dir/DateTests.cpp.o: CMakeFiles/Project.dir/flags.make
-CMakeFiles/Project.dir/DateTests.cpp.o: ../DateTests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/e/Docs_Uniba/Prog 3/Project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Project.dir/DateTests.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project.dir/DateTests.cpp.o -c "/mnt/e/Docs_Uniba/Prog 3/Project/DateTests.cpp"
+CMakeFiles/Project.dir/Date_Tests.cpp.o: CMakeFiles/Project.dir/flags.make
+CMakeFiles/Project.dir/Date_Tests.cpp.o: ../Date_Tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/e/Docs_Uniba/Prog 3/Project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Project.dir/Date_Tests.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project.dir/Date_Tests.cpp.o -c "/mnt/e/Docs_Uniba/Prog 3/Project/Date_Tests.cpp"
 
-CMakeFiles/Project.dir/DateTests.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project.dir/DateTests.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/e/Docs_Uniba/Prog 3/Project/DateTests.cpp" > CMakeFiles/Project.dir/DateTests.cpp.i
+CMakeFiles/Project.dir/Date_Tests.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project.dir/Date_Tests.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/e/Docs_Uniba/Prog 3/Project/Date_Tests.cpp" > CMakeFiles/Project.dir/Date_Tests.cpp.i
 
-CMakeFiles/Project.dir/DateTests.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project.dir/DateTests.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/e/Docs_Uniba/Prog 3/Project/DateTests.cpp" -o CMakeFiles/Project.dir/DateTests.cpp.s
+CMakeFiles/Project.dir/Date_Tests.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project.dir/Date_Tests.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/e/Docs_Uniba/Prog 3/Project/Date_Tests.cpp" -o CMakeFiles/Project.dir/Date_Tests.cpp.s
 
 CMakeFiles/Project.dir/GoogleTest/gtest-death-test.cc.o: CMakeFiles/Project.dir/flags.make
 CMakeFiles/Project.dir/GoogleTest/gtest-death-test.cc.o: ../GoogleTest/gtest-death-test.cc
@@ -304,12 +304,38 @@ CMakeFiles/Project.dir/Shelf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project.dir/Shelf.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/e/Docs_Uniba/Prog 3/Project/Shelf.cpp" -o CMakeFiles/Project.dir/Shelf.cpp.s
 
+CMakeFiles/Project.dir/Fridge_put.cpp.o: CMakeFiles/Project.dir/flags.make
+CMakeFiles/Project.dir/Fridge_put.cpp.o: ../Fridge_put.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/e/Docs_Uniba/Prog 3/Project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Project.dir/Fridge_put.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project.dir/Fridge_put.cpp.o -c "/mnt/e/Docs_Uniba/Prog 3/Project/Fridge_put.cpp"
+
+CMakeFiles/Project.dir/Fridge_put.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project.dir/Fridge_put.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/e/Docs_Uniba/Prog 3/Project/Fridge_put.cpp" > CMakeFiles/Project.dir/Fridge_put.cpp.i
+
+CMakeFiles/Project.dir/Fridge_put.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project.dir/Fridge_put.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/e/Docs_Uniba/Prog 3/Project/Fridge_put.cpp" -o CMakeFiles/Project.dir/Fridge_put.cpp.s
+
+CMakeFiles/Project.dir/Fridge_Base_Tests.cpp.o: CMakeFiles/Project.dir/flags.make
+CMakeFiles/Project.dir/Fridge_Base_Tests.cpp.o: ../Fridge_Base_Tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/e/Docs_Uniba/Prog 3/Project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Project.dir/Fridge_Base_Tests.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project.dir/Fridge_Base_Tests.cpp.o -c "/mnt/e/Docs_Uniba/Prog 3/Project/Fridge_Base_Tests.cpp"
+
+CMakeFiles/Project.dir/Fridge_Base_Tests.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project.dir/Fridge_Base_Tests.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/e/Docs_Uniba/Prog 3/Project/Fridge_Base_Tests.cpp" > CMakeFiles/Project.dir/Fridge_Base_Tests.cpp.i
+
+CMakeFiles/Project.dir/Fridge_Base_Tests.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project.dir/Fridge_Base_Tests.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/e/Docs_Uniba/Prog 3/Project/Fridge_Base_Tests.cpp" -o CMakeFiles/Project.dir/Fridge_Base_Tests.cpp.s
+
 # Object files for target Project
 Project_OBJECTS = \
 "CMakeFiles/Project.dir/ItemTests.cpp.o" \
 "CMakeFiles/Project.dir/Item.cpp.o" \
 "CMakeFiles/Project.dir/Date.cpp.o" \
-"CMakeFiles/Project.dir/DateTests.cpp.o" \
+"CMakeFiles/Project.dir/Date_Tests.cpp.o" \
 "CMakeFiles/Project.dir/GoogleTest/gtest-death-test.cc.o" \
 "CMakeFiles/Project.dir/GoogleTest/gtest-filepath.cc.o" \
 "CMakeFiles/Project.dir/GoogleTest/gtest-port.cc.o" \
@@ -324,7 +350,9 @@ Project_OBJECTS = \
 "CMakeFiles/Project.dir/Orders.cpp.o" \
 "CMakeFiles/Project.dir/Fridge.cpp.o" \
 "CMakeFiles/Project.dir/Date_Static_Tests.cpp.o" \
-"CMakeFiles/Project.dir/Shelf.cpp.o"
+"CMakeFiles/Project.dir/Shelf.cpp.o" \
+"CMakeFiles/Project.dir/Fridge_put.cpp.o" \
+"CMakeFiles/Project.dir/Fridge_Base_Tests.cpp.o"
 
 # External object files for target Project
 Project_EXTERNAL_OBJECTS =
@@ -332,7 +360,7 @@ Project_EXTERNAL_OBJECTS =
 Project: CMakeFiles/Project.dir/ItemTests.cpp.o
 Project: CMakeFiles/Project.dir/Item.cpp.o
 Project: CMakeFiles/Project.dir/Date.cpp.o
-Project: CMakeFiles/Project.dir/DateTests.cpp.o
+Project: CMakeFiles/Project.dir/Date_Tests.cpp.o
 Project: CMakeFiles/Project.dir/GoogleTest/gtest-death-test.cc.o
 Project: CMakeFiles/Project.dir/GoogleTest/gtest-filepath.cc.o
 Project: CMakeFiles/Project.dir/GoogleTest/gtest-port.cc.o
@@ -348,9 +376,11 @@ Project: CMakeFiles/Project.dir/Orders.cpp.o
 Project: CMakeFiles/Project.dir/Fridge.cpp.o
 Project: CMakeFiles/Project.dir/Date_Static_Tests.cpp.o
 Project: CMakeFiles/Project.dir/Shelf.cpp.o
+Project: CMakeFiles/Project.dir/Fridge_put.cpp.o
+Project: CMakeFiles/Project.dir/Fridge_Base_Tests.cpp.o
 Project: CMakeFiles/Project.dir/build.make
 Project: CMakeFiles/Project.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/e/Docs_Uniba/Prog 3/Project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable Project"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/e/Docs_Uniba/Prog 3/Project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable Project"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Project.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

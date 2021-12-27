@@ -4,31 +4,6 @@
 CMakeFiles/Project.dir/Date.cpp.o: ../Date.cpp
 CMakeFiles/Project.dir/Date.cpp.o: ../Date.h
 
-CMakeFiles/Project.dir/DateTests.cpp.o: ../GoogleTest/gtest/gtest-death-test.h
-CMakeFiles/Project.dir/DateTests.cpp.o: ../GoogleTest/gtest/gtest-message.h
-CMakeFiles/Project.dir/DateTests.cpp.o: ../GoogleTest/gtest/gtest-param-test.h
-CMakeFiles/Project.dir/DateTests.cpp.o: ../GoogleTest/gtest/gtest-printers.h
-CMakeFiles/Project.dir/DateTests.cpp.o: ../GoogleTest/gtest/gtest-test-part.h
-CMakeFiles/Project.dir/DateTests.cpp.o: ../GoogleTest/gtest/gtest-typed-test.h
-CMakeFiles/Project.dir/DateTests.cpp.o: ../GoogleTest/gtest/gtest_pred_impl.h
-CMakeFiles/Project.dir/DateTests.cpp.o: ../GoogleTest/gtest/gtest_prod.h
-CMakeFiles/Project.dir/DateTests.cpp.o: ../GoogleTest/gtest/internal/custom/gtest-port.h
-CMakeFiles/Project.dir/DateTests.cpp.o: ../GoogleTest/gtest/internal/custom/gtest-printers.h
-CMakeFiles/Project.dir/DateTests.cpp.o: ../GoogleTest/gtest/internal/gtest-death-test-internal.h
-CMakeFiles/Project.dir/DateTests.cpp.o: ../GoogleTest/gtest/internal/gtest-filepath.h
-CMakeFiles/Project.dir/DateTests.cpp.o: ../GoogleTest/gtest/internal/gtest-internal.h
-CMakeFiles/Project.dir/DateTests.cpp.o: ../GoogleTest/gtest/internal/gtest-linked_ptr.h
-CMakeFiles/Project.dir/DateTests.cpp.o: ../GoogleTest/gtest/internal/gtest-param-util-generated.h
-CMakeFiles/Project.dir/DateTests.cpp.o: ../GoogleTest/gtest/internal/gtest-param-util.h
-CMakeFiles/Project.dir/DateTests.cpp.o: ../GoogleTest/gtest/internal/gtest-port-arch.h
-CMakeFiles/Project.dir/DateTests.cpp.o: ../GoogleTest/gtest/internal/gtest-port.h
-CMakeFiles/Project.dir/DateTests.cpp.o: ../GoogleTest/gtest/internal/gtest-string.h
-CMakeFiles/Project.dir/DateTests.cpp.o: ../GoogleTest/gtest/internal/gtest-tuple.h
-CMakeFiles/Project.dir/DateTests.cpp.o: ../GoogleTest/gtest/internal/gtest-type-util.h
-CMakeFiles/Project.dir/DateTests.cpp.o: ../Date.h
-CMakeFiles/Project.dir/DateTests.cpp.o: ../DateTests.cpp
-CMakeFiles/Project.dir/DateTests.cpp.o: ../gtest/gtest.h
-
 CMakeFiles/Project.dir/Date_Operators.cpp.o: ../Date.h
 CMakeFiles/Project.dir/Date_Operators.cpp.o: ../Date_Operators.cpp
 
@@ -60,9 +35,48 @@ CMakeFiles/Project.dir/Date_Static_Tests.cpp.o: ../Date.h
 CMakeFiles/Project.dir/Date_Static_Tests.cpp.o: ../Date_Static_Tests.cpp
 CMakeFiles/Project.dir/Date_Static_Tests.cpp.o: ../gtest/gtest.h
 
+CMakeFiles/Project.dir/Date_Tests.cpp.o: ../GoogleTest/gtest/gtest-death-test.h
+CMakeFiles/Project.dir/Date_Tests.cpp.o: ../GoogleTest/gtest/gtest-message.h
+CMakeFiles/Project.dir/Date_Tests.cpp.o: ../GoogleTest/gtest/gtest-param-test.h
+CMakeFiles/Project.dir/Date_Tests.cpp.o: ../GoogleTest/gtest/gtest-printers.h
+CMakeFiles/Project.dir/Date_Tests.cpp.o: ../GoogleTest/gtest/gtest-test-part.h
+CMakeFiles/Project.dir/Date_Tests.cpp.o: ../GoogleTest/gtest/gtest-typed-test.h
+CMakeFiles/Project.dir/Date_Tests.cpp.o: ../GoogleTest/gtest/gtest_pred_impl.h
+CMakeFiles/Project.dir/Date_Tests.cpp.o: ../GoogleTest/gtest/gtest_prod.h
+CMakeFiles/Project.dir/Date_Tests.cpp.o: ../GoogleTest/gtest/internal/custom/gtest-port.h
+CMakeFiles/Project.dir/Date_Tests.cpp.o: ../GoogleTest/gtest/internal/custom/gtest-printers.h
+CMakeFiles/Project.dir/Date_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-death-test-internal.h
+CMakeFiles/Project.dir/Date_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-filepath.h
+CMakeFiles/Project.dir/Date_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-internal.h
+CMakeFiles/Project.dir/Date_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-linked_ptr.h
+CMakeFiles/Project.dir/Date_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-param-util-generated.h
+CMakeFiles/Project.dir/Date_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-param-util.h
+CMakeFiles/Project.dir/Date_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-port-arch.h
+CMakeFiles/Project.dir/Date_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-port.h
+CMakeFiles/Project.dir/Date_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-string.h
+CMakeFiles/Project.dir/Date_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-tuple.h
+CMakeFiles/Project.dir/Date_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-type-util.h
+CMakeFiles/Project.dir/Date_Tests.cpp.o: ../Date.h
+CMakeFiles/Project.dir/Date_Tests.cpp.o: ../Date_Tests.cpp
+CMakeFiles/Project.dir/Date_Tests.cpp.o: ../gtest/gtest.h
+
 CMakeFiles/Project.dir/FileOps.cpp.o: ../FileOps.cpp
 
+CMakeFiles/Project.dir/Fridge.cpp.o: ../Date.h
+CMakeFiles/Project.dir/Fridge.cpp.o: ../FileOps.h
 CMakeFiles/Project.dir/Fridge.cpp.o: ../Fridge.cpp
+CMakeFiles/Project.dir/Fridge.cpp.o: ../Fridge.h
+CMakeFiles/Project.dir/Fridge.cpp.o: ../Item.h
+CMakeFiles/Project.dir/Fridge.cpp.o: ../Orders.h
+CMakeFiles/Project.dir/Fridge.cpp.o: ../Shelf.h
+
+CMakeFiles/Project.dir/Fridge_put.cpp.o: ../Date.h
+CMakeFiles/Project.dir/Fridge_put.cpp.o: ../FileOps.h
+CMakeFiles/Project.dir/Fridge_put.cpp.o: ../Fridge.h
+CMakeFiles/Project.dir/Fridge_put.cpp.o: ../Fridge_put.cpp
+CMakeFiles/Project.dir/Fridge_put.cpp.o: ../Item.h
+CMakeFiles/Project.dir/Fridge_put.cpp.o: ../Orders.h
+CMakeFiles/Project.dir/Fridge_put.cpp.o: ../Shelf.h
 
 CMakeFiles/Project.dir/GoogleTest/gtest-death-test.cc.o: ../GoogleTest/gtest/gtest-param-test.h
 CMakeFiles/Project.dir/GoogleTest/gtest-death-test.cc.o: ../GoogleTest/gtest/gtest-printers.h
@@ -271,4 +285,9 @@ CMakeFiles/Project.dir/ItemTests.cpp.o: ../ItemTests.cpp
 CMakeFiles/Project.dir/ItemTests.cpp.o: ../gtest/gtest.h
 
 CMakeFiles/Project.dir/Orders.cpp.o: ../Orders.cpp
+
+CMakeFiles/Project.dir/Shelf.cpp.o: ../Date.h
+CMakeFiles/Project.dir/Shelf.cpp.o: ../Item.h
+CMakeFiles/Project.dir/Shelf.cpp.o: ../Shelf.cpp
+CMakeFiles/Project.dir/Shelf.cpp.o: ../Shelf.h
 

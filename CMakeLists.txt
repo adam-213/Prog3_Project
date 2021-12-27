@@ -11,7 +11,7 @@ find_package(Threads)
 set(SOURCE_FILES
         #main.cpp main.h
         ItemTests.cpp Item.cpp Item.h
-        Date.h Date.cpp DateTests.cpp
+        Date.h Date.cpp Date_Tests.cpp
 
         GoogleTest/gtest-death-test.cc
         GoogleTest/gtest-filepath.cc
@@ -20,7 +20,7 @@ set(SOURCE_FILES
         GoogleTest/gtest-test-part.cc
         GoogleTest/gtest-typed-test.cc
         GoogleTest/gtest.cc
-        GoogleTest/gtest_main.cc Date_Operators.cpp Date_Static.cpp FileOps.h FileOps.cpp Orders.h Fridge.h Orders.cpp Fridge.cpp Date_Static_Tests.cpp Shelf.cpp Shelf.h)
+        GoogleTest/gtest_main.cc Date_Operators.cpp Date_Static.cpp FileOps.h FileOps.cpp Orders.h Fridge.h Orders.cpp Fridge.cpp Date_Static_Tests.cpp Shelf.cpp Shelf.h Fridge_put.cpp Fridge_Base_Tests.cpp)
 
 
 

@@ -4,31 +4,6 @@
 CMakeFiles/Project.dir/Date.cpp.o
  /mnt/e/Docs_Uniba/Prog 3/Project/Date.cpp
  /mnt/e/Docs_Uniba/Prog 3/Project/Date.h
-CMakeFiles/Project.dir/DateTests.cpp.o
- ../GoogleTest/gtest/gtest-death-test.h
- ../GoogleTest/gtest/gtest-message.h
- ../GoogleTest/gtest/gtest-param-test.h
- ../GoogleTest/gtest/gtest-printers.h
- ../GoogleTest/gtest/gtest-test-part.h
- ../GoogleTest/gtest/gtest-typed-test.h
- ../GoogleTest/gtest/gtest_pred_impl.h
- ../GoogleTest/gtest/gtest_prod.h
- ../GoogleTest/gtest/internal/custom/gtest-port.h
- ../GoogleTest/gtest/internal/custom/gtest-printers.h
- ../GoogleTest/gtest/internal/gtest-death-test-internal.h
- ../GoogleTest/gtest/internal/gtest-filepath.h
- ../GoogleTest/gtest/internal/gtest-internal.h
- ../GoogleTest/gtest/internal/gtest-linked_ptr.h
- ../GoogleTest/gtest/internal/gtest-param-util-generated.h
- ../GoogleTest/gtest/internal/gtest-param-util.h
- ../GoogleTest/gtest/internal/gtest-port-arch.h
- ../GoogleTest/gtest/internal/gtest-port.h
- ../GoogleTest/gtest/internal/gtest-string.h
- ../GoogleTest/gtest/internal/gtest-tuple.h
- ../GoogleTest/gtest/internal/gtest-type-util.h
- /mnt/e/Docs_Uniba/Prog 3/Project/Date.h
- /mnt/e/Docs_Uniba/Prog 3/Project/DateTests.cpp
- /mnt/e/Docs_Uniba/Prog 3/Project/gtest/gtest.h
 CMakeFiles/Project.dir/Date_Operators.cpp.o
  /mnt/e/Docs_Uniba/Prog 3/Project/Date.h
  /mnt/e/Docs_Uniba/Prog 3/Project/Date_Operators.cpp
@@ -60,10 +35,49 @@ CMakeFiles/Project.dir/Date_Static_Tests.cpp.o
  /mnt/e/Docs_Uniba/Prog 3/Project/Date.h
  /mnt/e/Docs_Uniba/Prog 3/Project/Date_Static_Tests.cpp
  /mnt/e/Docs_Uniba/Prog 3/Project/gtest/gtest.h
+CMakeFiles/Project.dir/Date_Tests.cpp.o
+ ../GoogleTest/gtest/gtest-death-test.h
+ ../GoogleTest/gtest/gtest-message.h
+ ../GoogleTest/gtest/gtest-param-test.h
+ ../GoogleTest/gtest/gtest-printers.h
+ ../GoogleTest/gtest/gtest-test-part.h
+ ../GoogleTest/gtest/gtest-typed-test.h
+ ../GoogleTest/gtest/gtest_pred_impl.h
+ ../GoogleTest/gtest/gtest_prod.h
+ ../GoogleTest/gtest/internal/custom/gtest-port.h
+ ../GoogleTest/gtest/internal/custom/gtest-printers.h
+ ../GoogleTest/gtest/internal/gtest-death-test-internal.h
+ ../GoogleTest/gtest/internal/gtest-filepath.h
+ ../GoogleTest/gtest/internal/gtest-internal.h
+ ../GoogleTest/gtest/internal/gtest-linked_ptr.h
+ ../GoogleTest/gtest/internal/gtest-param-util-generated.h
+ ../GoogleTest/gtest/internal/gtest-param-util.h
+ ../GoogleTest/gtest/internal/gtest-port-arch.h
+ ../GoogleTest/gtest/internal/gtest-port.h
+ ../GoogleTest/gtest/internal/gtest-string.h
+ ../GoogleTest/gtest/internal/gtest-tuple.h
+ ../GoogleTest/gtest/internal/gtest-type-util.h
+ /mnt/e/Docs_Uniba/Prog 3/Project/Date.h
+ /mnt/e/Docs_Uniba/Prog 3/Project/Date_Tests.cpp
+ /mnt/e/Docs_Uniba/Prog 3/Project/gtest/gtest.h
 CMakeFiles/Project.dir/FileOps.cpp.o
  /mnt/e/Docs_Uniba/Prog 3/Project/FileOps.cpp
 CMakeFiles/Project.dir/Fridge.cpp.o
+ /mnt/e/Docs_Uniba/Prog 3/Project/Date.h
+ /mnt/e/Docs_Uniba/Prog 3/Project/FileOps.h
  /mnt/e/Docs_Uniba/Prog 3/Project/Fridge.cpp
+ /mnt/e/Docs_Uniba/Prog 3/Project/Fridge.h
+ /mnt/e/Docs_Uniba/Prog 3/Project/Item.h
+ /mnt/e/Docs_Uniba/Prog 3/Project/Orders.h
+ /mnt/e/Docs_Uniba/Prog 3/Project/Shelf.h
+CMakeFiles/Project.dir/Fridge_put.cpp.o
+ /mnt/e/Docs_Uniba/Prog 3/Project/Date.h
+ /mnt/e/Docs_Uniba/Prog 3/Project/FileOps.h
+ /mnt/e/Docs_Uniba/Prog 3/Project/Fridge.h
+ /mnt/e/Docs_Uniba/Prog 3/Project/Fridge_put.cpp
+ /mnt/e/Docs_Uniba/Prog 3/Project/Item.h
+ /mnt/e/Docs_Uniba/Prog 3/Project/Orders.h
+ /mnt/e/Docs_Uniba/Prog 3/Project/Shelf.h
 CMakeFiles/Project.dir/GoogleTest/gtest-death-test.cc.o
  ../GoogleTest/gtest/gtest-param-test.h
  ../GoogleTest/gtest/gtest-printers.h
@@ -272,3 +286,8 @@ CMakeFiles/Project.dir/ItemTests.cpp.o
  /mnt/e/Docs_Uniba/Prog 3/Project/gtest/gtest.h
 CMakeFiles/Project.dir/Orders.cpp.o
  /mnt/e/Docs_Uniba/Prog 3/Project/Orders.cpp
+CMakeFiles/Project.dir/Shelf.cpp.o
+ /mnt/e/Docs_Uniba/Prog 3/Project/Date.h
+ /mnt/e/Docs_Uniba/Prog 3/Project/Item.h
+ /mnt/e/Docs_Uniba/Prog 3/Project/Shelf.cpp
+ /mnt/e/Docs_Uniba/Prog 3/Project/Shelf.h
