@@ -84,42 +84,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Date.cpp">
-			<Option target="Project"/>
-		</Unit>
-		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Date.h">
-			<Option target="Project"/>
-		</Unit>
-		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Date_Operators.cpp">
-			<Option target="Project"/>
-		</Unit>
-		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Date_Static.cpp">
-			<Option target="Project"/>
-		</Unit>
-		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Date_Static_Tests.cpp">
-			<Option target="Project"/>
-		</Unit>
-		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Date_Tests.cpp">
-			<Option target="Project"/>
-		</Unit>
-		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/FileOps.cpp">
-			<Option target="Project"/>
-		</Unit>
-		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/FileOps.h">
-			<Option target="Project"/>
-		</Unit>
-		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Fridge.cpp">
-			<Option target="Project"/>
-		</Unit>
-		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Fridge.h">
-			<Option target="Project"/>
-		</Unit>
-		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Fridge_Base_Tests.cpp">
-			<Option target="Project"/>
-		</Unit>
-		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Fridge_put.cpp">
-			<Option target="Project"/>
-		</Unit>
 		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/GoogleTest/gtest-death-test.cc">
 			<Option target="Project"/>
 		</Unit>
@@ -144,25 +108,70 @@
 		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/GoogleTest/gtest_main.cc">
 			<Option target="Project"/>
 		</Unit>
-		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Item.cpp">
+		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Headers/Date.h">
 			<Option target="Project"/>
 		</Unit>
-		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Item.h">
+		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Headers/FileOps.h">
 			<Option target="Project"/>
 		</Unit>
-		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/ItemTests.cpp">
+		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Headers/Fridge.h">
 			<Option target="Project"/>
 		</Unit>
-		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Orders.cpp">
+		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Headers/Item.h">
 			<Option target="Project"/>
 		</Unit>
-		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Orders.h">
+		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Headers/Orders_Generators.h">
 			<Option target="Project"/>
 		</Unit>
-		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Shelf.cpp">
+		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Headers/Shelf.h">
 			<Option target="Project"/>
 		</Unit>
-		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Shelf.h">
+		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Kod/Date.cpp">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Kod/Date_Operators.cpp">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Kod/Date_Static.cpp">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Kod/FileOps.cpp">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Kod/Fridge.cpp">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Kod/Fridge_put.cpp">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Kod/Item.cpp">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Kod/Orders.cpp">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Kod/Shelf.cpp">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Tests/Date_Static_Tests.cpp">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Tests/Date_Tests.cpp">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Tests/FileOps_Tests.cpp">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Tests/Fridge_Base_Tests.cpp">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Tests/ItemTests.cpp">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Tests/Orders_Tests.cpp">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Tests/Shelf_Tests.cpp">
 			<Option target="Project"/>
 		</Unit>
 		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/CMakeLists.txt">

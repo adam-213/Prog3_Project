@@ -123,249 +123,6 @@ Project/fast:
 	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/build
 .PHONY : Project/fast
 
-Date.o: Date.cpp.o
-
-.PHONY : Date.o
-
-# target to build an object file
-Date.cpp.o:
-	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Date.cpp.o
-.PHONY : Date.cpp.o
-
-Date.i: Date.cpp.i
-
-.PHONY : Date.i
-
-# target to preprocess a source file
-Date.cpp.i:
-	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Date.cpp.i
-.PHONY : Date.cpp.i
-
-Date.s: Date.cpp.s
-
-.PHONY : Date.s
-
-# target to generate assembly for a file
-Date.cpp.s:
-	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Date.cpp.s
-.PHONY : Date.cpp.s
-
-Date_Operators.o: Date_Operators.cpp.o
-
-.PHONY : Date_Operators.o
-
-# target to build an object file
-Date_Operators.cpp.o:
-	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Date_Operators.cpp.o
-.PHONY : Date_Operators.cpp.o
-
-Date_Operators.i: Date_Operators.cpp.i
-
-.PHONY : Date_Operators.i
-
-# target to preprocess a source file
-Date_Operators.cpp.i:
-	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Date_Operators.cpp.i
-.PHONY : Date_Operators.cpp.i
-
-Date_Operators.s: Date_Operators.cpp.s
-
-.PHONY : Date_Operators.s
-
-# target to generate assembly for a file
-Date_Operators.cpp.s:
-	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Date_Operators.cpp.s
-.PHONY : Date_Operators.cpp.s
-
-Date_Static.o: Date_Static.cpp.o
-
-.PHONY : Date_Static.o
-
-# target to build an object file
-Date_Static.cpp.o:
-	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Date_Static.cpp.o
-.PHONY : Date_Static.cpp.o
-
-Date_Static.i: Date_Static.cpp.i
-
-.PHONY : Date_Static.i
-
-# target to preprocess a source file
-Date_Static.cpp.i:
-	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Date_Static.cpp.i
-.PHONY : Date_Static.cpp.i
-
-Date_Static.s: Date_Static.cpp.s
-
-.PHONY : Date_Static.s
-
-# target to generate assembly for a file
-Date_Static.cpp.s:
-	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Date_Static.cpp.s
-.PHONY : Date_Static.cpp.s
-
-Date_Static_Tests.o: Date_Static_Tests.cpp.o
-
-.PHONY : Date_Static_Tests.o
-
-# target to build an object file
-Date_Static_Tests.cpp.o:
-	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Date_Static_Tests.cpp.o
-.PHONY : Date_Static_Tests.cpp.o
-
-Date_Static_Tests.i: Date_Static_Tests.cpp.i
-
-.PHONY : Date_Static_Tests.i
-
-# target to preprocess a source file
-Date_Static_Tests.cpp.i:
-	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Date_Static_Tests.cpp.i
-.PHONY : Date_Static_Tests.cpp.i
-
-Date_Static_Tests.s: Date_Static_Tests.cpp.s
-
-.PHONY : Date_Static_Tests.s
-
-# target to generate assembly for a file
-Date_Static_Tests.cpp.s:
-	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Date_Static_Tests.cpp.s
-.PHONY : Date_Static_Tests.cpp.s
-
-Date_Tests.o: Date_Tests.cpp.o
-
-.PHONY : Date_Tests.o
-
-# target to build an object file
-Date_Tests.cpp.o:
-	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Date_Tests.cpp.o
-.PHONY : Date_Tests.cpp.o
-
-Date_Tests.i: Date_Tests.cpp.i
-
-.PHONY : Date_Tests.i
-
-# target to preprocess a source file
-Date_Tests.cpp.i:
-	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Date_Tests.cpp.i
-.PHONY : Date_Tests.cpp.i
-
-Date_Tests.s: Date_Tests.cpp.s
-
-.PHONY : Date_Tests.s
-
-# target to generate assembly for a file
-Date_Tests.cpp.s:
-	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Date_Tests.cpp.s
-.PHONY : Date_Tests.cpp.s
-
-FileOps.o: FileOps.cpp.o
-
-.PHONY : FileOps.o
-
-# target to build an object file
-FileOps.cpp.o:
-	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/FileOps.cpp.o
-.PHONY : FileOps.cpp.o
-
-FileOps.i: FileOps.cpp.i
-
-.PHONY : FileOps.i
-
-# target to preprocess a source file
-FileOps.cpp.i:
-	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/FileOps.cpp.i
-.PHONY : FileOps.cpp.i
-
-FileOps.s: FileOps.cpp.s
-
-.PHONY : FileOps.s
-
-# target to generate assembly for a file
-FileOps.cpp.s:
-	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/FileOps.cpp.s
-.PHONY : FileOps.cpp.s
-
-Fridge.o: Fridge.cpp.o
-
-.PHONY : Fridge.o
-
-# target to build an object file
-Fridge.cpp.o:
-	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Fridge.cpp.o
-.PHONY : Fridge.cpp.o
-
-Fridge.i: Fridge.cpp.i
-
-.PHONY : Fridge.i
-
-# target to preprocess a source file
-Fridge.cpp.i:
-	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Fridge.cpp.i
-.PHONY : Fridge.cpp.i
-
-Fridge.s: Fridge.cpp.s
-
-.PHONY : Fridge.s
-
-# target to generate assembly for a file
-Fridge.cpp.s:
-	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Fridge.cpp.s
-.PHONY : Fridge.cpp.s
-
-Fridge_Base_Tests.o: Fridge_Base_Tests.cpp.o
-
-.PHONY : Fridge_Base_Tests.o
-
-# target to build an object file
-Fridge_Base_Tests.cpp.o:
-	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Fridge_Base_Tests.cpp.o
-.PHONY : Fridge_Base_Tests.cpp.o
-
-Fridge_Base_Tests.i: Fridge_Base_Tests.cpp.i
-
-.PHONY : Fridge_Base_Tests.i
-
-# target to preprocess a source file
-Fridge_Base_Tests.cpp.i:
-	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Fridge_Base_Tests.cpp.i
-.PHONY : Fridge_Base_Tests.cpp.i
-
-Fridge_Base_Tests.s: Fridge_Base_Tests.cpp.s
-
-.PHONY : Fridge_Base_Tests.s
-
-# target to generate assembly for a file
-Fridge_Base_Tests.cpp.s:
-	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Fridge_Base_Tests.cpp.s
-.PHONY : Fridge_Base_Tests.cpp.s
-
-Fridge_put.o: Fridge_put.cpp.o
-
-.PHONY : Fridge_put.o
-
-# target to build an object file
-Fridge_put.cpp.o:
-	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Fridge_put.cpp.o
-.PHONY : Fridge_put.cpp.o
-
-Fridge_put.i: Fridge_put.cpp.i
-
-.PHONY : Fridge_put.i
-
-# target to preprocess a source file
-Fridge_put.cpp.i:
-	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Fridge_put.cpp.i
-.PHONY : Fridge_put.cpp.i
-
-Fridge_put.s: Fridge_put.cpp.s
-
-.PHONY : Fridge_put.s
-
-# target to generate assembly for a file
-Fridge_put.cpp.s:
-	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Fridge_put.cpp.s
-.PHONY : Fridge_put.cpp.s
-
 GoogleTest/gtest-death-test.o: GoogleTest/gtest-death-test.cc.o
 
 .PHONY : GoogleTest/gtest-death-test.o
@@ -582,113 +339,437 @@ GoogleTest/gtest_main.cc.s:
 	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/GoogleTest/gtest_main.cc.s
 .PHONY : GoogleTest/gtest_main.cc.s
 
-Item.o: Item.cpp.o
+Kod/Date.o: Kod/Date.cpp.o
 
-.PHONY : Item.o
-
-# target to build an object file
-Item.cpp.o:
-	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Item.cpp.o
-.PHONY : Item.cpp.o
-
-Item.i: Item.cpp.i
-
-.PHONY : Item.i
-
-# target to preprocess a source file
-Item.cpp.i:
-	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Item.cpp.i
-.PHONY : Item.cpp.i
-
-Item.s: Item.cpp.s
-
-.PHONY : Item.s
-
-# target to generate assembly for a file
-Item.cpp.s:
-	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Item.cpp.s
-.PHONY : Item.cpp.s
-
-ItemTests.o: ItemTests.cpp.o
-
-.PHONY : ItemTests.o
+.PHONY : Kod/Date.o
 
 # target to build an object file
-ItemTests.cpp.o:
-	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/ItemTests.cpp.o
-.PHONY : ItemTests.cpp.o
+Kod/Date.cpp.o:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Kod/Date.cpp.o
+.PHONY : Kod/Date.cpp.o
 
-ItemTests.i: ItemTests.cpp.i
+Kod/Date.i: Kod/Date.cpp.i
 
-.PHONY : ItemTests.i
+.PHONY : Kod/Date.i
 
 # target to preprocess a source file
-ItemTests.cpp.i:
-	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/ItemTests.cpp.i
-.PHONY : ItemTests.cpp.i
+Kod/Date.cpp.i:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Kod/Date.cpp.i
+.PHONY : Kod/Date.cpp.i
 
-ItemTests.s: ItemTests.cpp.s
+Kod/Date.s: Kod/Date.cpp.s
 
-.PHONY : ItemTests.s
+.PHONY : Kod/Date.s
 
 # target to generate assembly for a file
-ItemTests.cpp.s:
-	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/ItemTests.cpp.s
-.PHONY : ItemTests.cpp.s
+Kod/Date.cpp.s:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Kod/Date.cpp.s
+.PHONY : Kod/Date.cpp.s
 
-Orders.o: Orders.cpp.o
+Kod/Date_Operators.o: Kod/Date_Operators.cpp.o
 
-.PHONY : Orders.o
+.PHONY : Kod/Date_Operators.o
 
 # target to build an object file
-Orders.cpp.o:
-	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Orders.cpp.o
-.PHONY : Orders.cpp.o
+Kod/Date_Operators.cpp.o:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Kod/Date_Operators.cpp.o
+.PHONY : Kod/Date_Operators.cpp.o
 
-Orders.i: Orders.cpp.i
+Kod/Date_Operators.i: Kod/Date_Operators.cpp.i
 
-.PHONY : Orders.i
+.PHONY : Kod/Date_Operators.i
 
 # target to preprocess a source file
-Orders.cpp.i:
-	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Orders.cpp.i
-.PHONY : Orders.cpp.i
+Kod/Date_Operators.cpp.i:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Kod/Date_Operators.cpp.i
+.PHONY : Kod/Date_Operators.cpp.i
 
-Orders.s: Orders.cpp.s
+Kod/Date_Operators.s: Kod/Date_Operators.cpp.s
 
-.PHONY : Orders.s
+.PHONY : Kod/Date_Operators.s
 
 # target to generate assembly for a file
-Orders.cpp.s:
-	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Orders.cpp.s
-.PHONY : Orders.cpp.s
+Kod/Date_Operators.cpp.s:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Kod/Date_Operators.cpp.s
+.PHONY : Kod/Date_Operators.cpp.s
 
-Shelf.o: Shelf.cpp.o
+Kod/Date_Static.o: Kod/Date_Static.cpp.o
 
-.PHONY : Shelf.o
+.PHONY : Kod/Date_Static.o
 
 # target to build an object file
-Shelf.cpp.o:
-	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Shelf.cpp.o
-.PHONY : Shelf.cpp.o
+Kod/Date_Static.cpp.o:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Kod/Date_Static.cpp.o
+.PHONY : Kod/Date_Static.cpp.o
 
-Shelf.i: Shelf.cpp.i
+Kod/Date_Static.i: Kod/Date_Static.cpp.i
 
-.PHONY : Shelf.i
+.PHONY : Kod/Date_Static.i
 
 # target to preprocess a source file
-Shelf.cpp.i:
-	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Shelf.cpp.i
-.PHONY : Shelf.cpp.i
+Kod/Date_Static.cpp.i:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Kod/Date_Static.cpp.i
+.PHONY : Kod/Date_Static.cpp.i
 
-Shelf.s: Shelf.cpp.s
+Kod/Date_Static.s: Kod/Date_Static.cpp.s
 
-.PHONY : Shelf.s
+.PHONY : Kod/Date_Static.s
 
 # target to generate assembly for a file
-Shelf.cpp.s:
-	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Shelf.cpp.s
-.PHONY : Shelf.cpp.s
+Kod/Date_Static.cpp.s:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Kod/Date_Static.cpp.s
+.PHONY : Kod/Date_Static.cpp.s
+
+Kod/FileOps.o: Kod/FileOps.cpp.o
+
+.PHONY : Kod/FileOps.o
+
+# target to build an object file
+Kod/FileOps.cpp.o:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Kod/FileOps.cpp.o
+.PHONY : Kod/FileOps.cpp.o
+
+Kod/FileOps.i: Kod/FileOps.cpp.i
+
+.PHONY : Kod/FileOps.i
+
+# target to preprocess a source file
+Kod/FileOps.cpp.i:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Kod/FileOps.cpp.i
+.PHONY : Kod/FileOps.cpp.i
+
+Kod/FileOps.s: Kod/FileOps.cpp.s
+
+.PHONY : Kod/FileOps.s
+
+# target to generate assembly for a file
+Kod/FileOps.cpp.s:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Kod/FileOps.cpp.s
+.PHONY : Kod/FileOps.cpp.s
+
+Kod/Fridge.o: Kod/Fridge.cpp.o
+
+.PHONY : Kod/Fridge.o
+
+# target to build an object file
+Kod/Fridge.cpp.o:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Kod/Fridge.cpp.o
+.PHONY : Kod/Fridge.cpp.o
+
+Kod/Fridge.i: Kod/Fridge.cpp.i
+
+.PHONY : Kod/Fridge.i
+
+# target to preprocess a source file
+Kod/Fridge.cpp.i:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Kod/Fridge.cpp.i
+.PHONY : Kod/Fridge.cpp.i
+
+Kod/Fridge.s: Kod/Fridge.cpp.s
+
+.PHONY : Kod/Fridge.s
+
+# target to generate assembly for a file
+Kod/Fridge.cpp.s:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Kod/Fridge.cpp.s
+.PHONY : Kod/Fridge.cpp.s
+
+Kod/Fridge_put.o: Kod/Fridge_put.cpp.o
+
+.PHONY : Kod/Fridge_put.o
+
+# target to build an object file
+Kod/Fridge_put.cpp.o:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Kod/Fridge_put.cpp.o
+.PHONY : Kod/Fridge_put.cpp.o
+
+Kod/Fridge_put.i: Kod/Fridge_put.cpp.i
+
+.PHONY : Kod/Fridge_put.i
+
+# target to preprocess a source file
+Kod/Fridge_put.cpp.i:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Kod/Fridge_put.cpp.i
+.PHONY : Kod/Fridge_put.cpp.i
+
+Kod/Fridge_put.s: Kod/Fridge_put.cpp.s
+
+.PHONY : Kod/Fridge_put.s
+
+# target to generate assembly for a file
+Kod/Fridge_put.cpp.s:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Kod/Fridge_put.cpp.s
+.PHONY : Kod/Fridge_put.cpp.s
+
+Kod/Item.o: Kod/Item.cpp.o
+
+.PHONY : Kod/Item.o
+
+# target to build an object file
+Kod/Item.cpp.o:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Kod/Item.cpp.o
+.PHONY : Kod/Item.cpp.o
+
+Kod/Item.i: Kod/Item.cpp.i
+
+.PHONY : Kod/Item.i
+
+# target to preprocess a source file
+Kod/Item.cpp.i:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Kod/Item.cpp.i
+.PHONY : Kod/Item.cpp.i
+
+Kod/Item.s: Kod/Item.cpp.s
+
+.PHONY : Kod/Item.s
+
+# target to generate assembly for a file
+Kod/Item.cpp.s:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Kod/Item.cpp.s
+.PHONY : Kod/Item.cpp.s
+
+Kod/Orders.o: Kod/Orders.cpp.o
+
+.PHONY : Kod/Orders.o
+
+# target to build an object file
+Kod/Orders.cpp.o:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Kod/Orders.cpp.o
+.PHONY : Kod/Orders.cpp.o
+
+Kod/Orders.i: Kod/Orders.cpp.i
+
+.PHONY : Kod/Orders.i
+
+# target to preprocess a source file
+Kod/Orders.cpp.i:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Kod/Orders.cpp.i
+.PHONY : Kod/Orders.cpp.i
+
+Kod/Orders.s: Kod/Orders.cpp.s
+
+.PHONY : Kod/Orders.s
+
+# target to generate assembly for a file
+Kod/Orders.cpp.s:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Kod/Orders.cpp.s
+.PHONY : Kod/Orders.cpp.s
+
+Kod/Shelf.o: Kod/Shelf.cpp.o
+
+.PHONY : Kod/Shelf.o
+
+# target to build an object file
+Kod/Shelf.cpp.o:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Kod/Shelf.cpp.o
+.PHONY : Kod/Shelf.cpp.o
+
+Kod/Shelf.i: Kod/Shelf.cpp.i
+
+.PHONY : Kod/Shelf.i
+
+# target to preprocess a source file
+Kod/Shelf.cpp.i:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Kod/Shelf.cpp.i
+.PHONY : Kod/Shelf.cpp.i
+
+Kod/Shelf.s: Kod/Shelf.cpp.s
+
+.PHONY : Kod/Shelf.s
+
+# target to generate assembly for a file
+Kod/Shelf.cpp.s:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Kod/Shelf.cpp.s
+.PHONY : Kod/Shelf.cpp.s
+
+Tests/Date_Static_Tests.o: Tests/Date_Static_Tests.cpp.o
+
+.PHONY : Tests/Date_Static_Tests.o
+
+# target to build an object file
+Tests/Date_Static_Tests.cpp.o:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Tests/Date_Static_Tests.cpp.o
+.PHONY : Tests/Date_Static_Tests.cpp.o
+
+Tests/Date_Static_Tests.i: Tests/Date_Static_Tests.cpp.i
+
+.PHONY : Tests/Date_Static_Tests.i
+
+# target to preprocess a source file
+Tests/Date_Static_Tests.cpp.i:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Tests/Date_Static_Tests.cpp.i
+.PHONY : Tests/Date_Static_Tests.cpp.i
+
+Tests/Date_Static_Tests.s: Tests/Date_Static_Tests.cpp.s
+
+.PHONY : Tests/Date_Static_Tests.s
+
+# target to generate assembly for a file
+Tests/Date_Static_Tests.cpp.s:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Tests/Date_Static_Tests.cpp.s
+.PHONY : Tests/Date_Static_Tests.cpp.s
+
+Tests/Date_Tests.o: Tests/Date_Tests.cpp.o
+
+.PHONY : Tests/Date_Tests.o
+
+# target to build an object file
+Tests/Date_Tests.cpp.o:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Tests/Date_Tests.cpp.o
+.PHONY : Tests/Date_Tests.cpp.o
+
+Tests/Date_Tests.i: Tests/Date_Tests.cpp.i
+
+.PHONY : Tests/Date_Tests.i
+
+# target to preprocess a source file
+Tests/Date_Tests.cpp.i:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Tests/Date_Tests.cpp.i
+.PHONY : Tests/Date_Tests.cpp.i
+
+Tests/Date_Tests.s: Tests/Date_Tests.cpp.s
+
+.PHONY : Tests/Date_Tests.s
+
+# target to generate assembly for a file
+Tests/Date_Tests.cpp.s:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Tests/Date_Tests.cpp.s
+.PHONY : Tests/Date_Tests.cpp.s
+
+Tests/FileOps_Tests.o: Tests/FileOps_Tests.cpp.o
+
+.PHONY : Tests/FileOps_Tests.o
+
+# target to build an object file
+Tests/FileOps_Tests.cpp.o:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Tests/FileOps_Tests.cpp.o
+.PHONY : Tests/FileOps_Tests.cpp.o
+
+Tests/FileOps_Tests.i: Tests/FileOps_Tests.cpp.i
+
+.PHONY : Tests/FileOps_Tests.i
+
+# target to preprocess a source file
+Tests/FileOps_Tests.cpp.i:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Tests/FileOps_Tests.cpp.i
+.PHONY : Tests/FileOps_Tests.cpp.i
+
+Tests/FileOps_Tests.s: Tests/FileOps_Tests.cpp.s
+
+.PHONY : Tests/FileOps_Tests.s
+
+# target to generate assembly for a file
+Tests/FileOps_Tests.cpp.s:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Tests/FileOps_Tests.cpp.s
+.PHONY : Tests/FileOps_Tests.cpp.s
+
+Tests/Fridge_Base_Tests.o: Tests/Fridge_Base_Tests.cpp.o
+
+.PHONY : Tests/Fridge_Base_Tests.o
+
+# target to build an object file
+Tests/Fridge_Base_Tests.cpp.o:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Tests/Fridge_Base_Tests.cpp.o
+.PHONY : Tests/Fridge_Base_Tests.cpp.o
+
+Tests/Fridge_Base_Tests.i: Tests/Fridge_Base_Tests.cpp.i
+
+.PHONY : Tests/Fridge_Base_Tests.i
+
+# target to preprocess a source file
+Tests/Fridge_Base_Tests.cpp.i:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Tests/Fridge_Base_Tests.cpp.i
+.PHONY : Tests/Fridge_Base_Tests.cpp.i
+
+Tests/Fridge_Base_Tests.s: Tests/Fridge_Base_Tests.cpp.s
+
+.PHONY : Tests/Fridge_Base_Tests.s
+
+# target to generate assembly for a file
+Tests/Fridge_Base_Tests.cpp.s:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Tests/Fridge_Base_Tests.cpp.s
+.PHONY : Tests/Fridge_Base_Tests.cpp.s
+
+Tests/ItemTests.o: Tests/ItemTests.cpp.o
+
+.PHONY : Tests/ItemTests.o
+
+# target to build an object file
+Tests/ItemTests.cpp.o:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Tests/ItemTests.cpp.o
+.PHONY : Tests/ItemTests.cpp.o
+
+Tests/ItemTests.i: Tests/ItemTests.cpp.i
+
+.PHONY : Tests/ItemTests.i
+
+# target to preprocess a source file
+Tests/ItemTests.cpp.i:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Tests/ItemTests.cpp.i
+.PHONY : Tests/ItemTests.cpp.i
+
+Tests/ItemTests.s: Tests/ItemTests.cpp.s
+
+.PHONY : Tests/ItemTests.s
+
+# target to generate assembly for a file
+Tests/ItemTests.cpp.s:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Tests/ItemTests.cpp.s
+.PHONY : Tests/ItemTests.cpp.s
+
+Tests/Orders_Tests.o: Tests/Orders_Tests.cpp.o
+
+.PHONY : Tests/Orders_Tests.o
+
+# target to build an object file
+Tests/Orders_Tests.cpp.o:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Tests/Orders_Tests.cpp.o
+.PHONY : Tests/Orders_Tests.cpp.o
+
+Tests/Orders_Tests.i: Tests/Orders_Tests.cpp.i
+
+.PHONY : Tests/Orders_Tests.i
+
+# target to preprocess a source file
+Tests/Orders_Tests.cpp.i:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Tests/Orders_Tests.cpp.i
+.PHONY : Tests/Orders_Tests.cpp.i
+
+Tests/Orders_Tests.s: Tests/Orders_Tests.cpp.s
+
+.PHONY : Tests/Orders_Tests.s
+
+# target to generate assembly for a file
+Tests/Orders_Tests.cpp.s:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Tests/Orders_Tests.cpp.s
+.PHONY : Tests/Orders_Tests.cpp.s
+
+Tests/Shelf_Tests.o: Tests/Shelf_Tests.cpp.o
+
+.PHONY : Tests/Shelf_Tests.o
+
+# target to build an object file
+Tests/Shelf_Tests.cpp.o:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Tests/Shelf_Tests.cpp.o
+.PHONY : Tests/Shelf_Tests.cpp.o
+
+Tests/Shelf_Tests.i: Tests/Shelf_Tests.cpp.i
+
+.PHONY : Tests/Shelf_Tests.i
+
+# target to preprocess a source file
+Tests/Shelf_Tests.cpp.i:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Tests/Shelf_Tests.cpp.i
+.PHONY : Tests/Shelf_Tests.cpp.i
+
+Tests/Shelf_Tests.s: Tests/Shelf_Tests.cpp.s
+
+.PHONY : Tests/Shelf_Tests.s
+
+# target to generate assembly for a file
+Tests/Shelf_Tests.cpp.s:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Tests/Shelf_Tests.cpp.s
+.PHONY : Tests/Shelf_Tests.cpp.s
 
 # Help Target
 help:
@@ -699,33 +780,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Project"
-	@echo "... Date.o"
-	@echo "... Date.i"
-	@echo "... Date.s"
-	@echo "... Date_Operators.o"
-	@echo "... Date_Operators.i"
-	@echo "... Date_Operators.s"
-	@echo "... Date_Static.o"
-	@echo "... Date_Static.i"
-	@echo "... Date_Static.s"
-	@echo "... Date_Static_Tests.o"
-	@echo "... Date_Static_Tests.i"
-	@echo "... Date_Static_Tests.s"
-	@echo "... Date_Tests.o"
-	@echo "... Date_Tests.i"
-	@echo "... Date_Tests.s"
-	@echo "... FileOps.o"
-	@echo "... FileOps.i"
-	@echo "... FileOps.s"
-	@echo "... Fridge.o"
-	@echo "... Fridge.i"
-	@echo "... Fridge.s"
-	@echo "... Fridge_Base_Tests.o"
-	@echo "... Fridge_Base_Tests.i"
-	@echo "... Fridge_Base_Tests.s"
-	@echo "... Fridge_put.o"
-	@echo "... Fridge_put.i"
-	@echo "... Fridge_put.s"
 	@echo "... GoogleTest/gtest-death-test.o"
 	@echo "... GoogleTest/gtest-death-test.i"
 	@echo "... GoogleTest/gtest-death-test.s"
@@ -750,18 +804,54 @@ help:
 	@echo "... GoogleTest/gtest_main.o"
 	@echo "... GoogleTest/gtest_main.i"
 	@echo "... GoogleTest/gtest_main.s"
-	@echo "... Item.o"
-	@echo "... Item.i"
-	@echo "... Item.s"
-	@echo "... ItemTests.o"
-	@echo "... ItemTests.i"
-	@echo "... ItemTests.s"
-	@echo "... Orders.o"
-	@echo "... Orders.i"
-	@echo "... Orders.s"
-	@echo "... Shelf.o"
-	@echo "... Shelf.i"
-	@echo "... Shelf.s"
+	@echo "... Kod/Date.o"
+	@echo "... Kod/Date.i"
+	@echo "... Kod/Date.s"
+	@echo "... Kod/Date_Operators.o"
+	@echo "... Kod/Date_Operators.i"
+	@echo "... Kod/Date_Operators.s"
+	@echo "... Kod/Date_Static.o"
+	@echo "... Kod/Date_Static.i"
+	@echo "... Kod/Date_Static.s"
+	@echo "... Kod/FileOps.o"
+	@echo "... Kod/FileOps.i"
+	@echo "... Kod/FileOps.s"
+	@echo "... Kod/Fridge.o"
+	@echo "... Kod/Fridge.i"
+	@echo "... Kod/Fridge.s"
+	@echo "... Kod/Fridge_put.o"
+	@echo "... Kod/Fridge_put.i"
+	@echo "... Kod/Fridge_put.s"
+	@echo "... Kod/Item.o"
+	@echo "... Kod/Item.i"
+	@echo "... Kod/Item.s"
+	@echo "... Kod/Orders.o"
+	@echo "... Kod/Orders.i"
+	@echo "... Kod/Orders.s"
+	@echo "... Kod/Shelf.o"
+	@echo "... Kod/Shelf.i"
+	@echo "... Kod/Shelf.s"
+	@echo "... Tests/Date_Static_Tests.o"
+	@echo "... Tests/Date_Static_Tests.i"
+	@echo "... Tests/Date_Static_Tests.s"
+	@echo "... Tests/Date_Tests.o"
+	@echo "... Tests/Date_Tests.i"
+	@echo "... Tests/Date_Tests.s"
+	@echo "... Tests/FileOps_Tests.o"
+	@echo "... Tests/FileOps_Tests.i"
+	@echo "... Tests/FileOps_Tests.s"
+	@echo "... Tests/Fridge_Base_Tests.o"
+	@echo "... Tests/Fridge_Base_Tests.i"
+	@echo "... Tests/Fridge_Base_Tests.s"
+	@echo "... Tests/ItemTests.o"
+	@echo "... Tests/ItemTests.i"
+	@echo "... Tests/ItemTests.s"
+	@echo "... Tests/Orders_Tests.o"
+	@echo "... Tests/Orders_Tests.i"
+	@echo "... Tests/Orders_Tests.s"
+	@echo "... Tests/Shelf_Tests.o"
+	@echo "... Tests/Shelf_Tests.i"
+	@echo "... Tests/Shelf_Tests.s"
 .PHONY : help
 
 
