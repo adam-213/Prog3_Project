@@ -280,6 +280,14 @@ exception
 Date.h
 /mnt/e/Docs_Uniba/Prog 3/Project/Headers/Date.h
 
+/mnt/e/Docs_Uniba/Prog 3/Project/Headers/Orders_Generators.h
+cstdlib
+-
+random
+-
+Date.h
+/mnt/e/Docs_Uniba/Prog 3/Project/Headers/Date.h
+
 /mnt/e/Docs_Uniba/Prog 3/Project/Headers/Shelf.h
 Item.h
 /mnt/e/Docs_Uniba/Prog 3/Project/Headers/Item.h
@@ -288,6 +296,52 @@ algorithm
 vector
 -
 
+/mnt/e/Docs_Uniba/Prog 3/Project/Kod/Date.cpp
+../Headers/Date.h
+/mnt/e/Docs_Uniba/Prog 3/Project/Headers/Date.h
+
+/mnt/e/Docs_Uniba/Prog 3/Project/Kod/Date_Operators.cpp
+../Headers/Date.h
+/mnt/e/Docs_Uniba/Prog 3/Project/Headers/Date.h
+
+/mnt/e/Docs_Uniba/Prog 3/Project/Kod/Date_Static.cpp
+../Headers/Date.h
+/mnt/e/Docs_Uniba/Prog 3/Project/Headers/Date.h
+
+/mnt/e/Docs_Uniba/Prog 3/Project/Kod/FileOps.cpp
+../Headers/FileOps.h
+/mnt/e/Docs_Uniba/Prog 3/Project/Headers/FileOps.h
+
+/mnt/e/Docs_Uniba/Prog 3/Project/Kod/Fridge.cpp
+../Headers/Fridge.h
+/mnt/e/Docs_Uniba/Prog 3/Project/Headers/Fridge.h
+
+/mnt/e/Docs_Uniba/Prog 3/Project/Kod/Fridge_GetSet.cpp
+../Headers/Fridge.h
+/mnt/e/Docs_Uniba/Prog 3/Project/Headers/Fridge.h
+
+/mnt/e/Docs_Uniba/Prog 3/Project/Kod/Fridge_put.cpp
+cmath
+-
+../Headers/Fridge.h
+/mnt/e/Docs_Uniba/Prog 3/Project/Headers/Fridge.h
+
+/mnt/e/Docs_Uniba/Prog 3/Project/Kod/Item.cpp
+../Headers/Item.h
+/mnt/e/Docs_Uniba/Prog 3/Project/Headers/Item.h
+utility
+-
+
+/mnt/e/Docs_Uniba/Prog 3/Project/Kod/Orders.cpp
+../Headers/Orders_Generators.h
+/mnt/e/Docs_Uniba/Prog 3/Project/Headers/Orders_Generators.h
+../Headers/Fridge.h
+/mnt/e/Docs_Uniba/Prog 3/Project/Headers/Fridge.h
+
+/mnt/e/Docs_Uniba/Prog 3/Project/Kod/Shelf.cpp
+../Headers/Shelf.h
+/mnt/e/Docs_Uniba/Prog 3/Project/Headers/Shelf.h
+
 /mnt/e/Docs_Uniba/Prog 3/Project/Tests/BigTest.cpp
 ../gtest/gtest.h
 /mnt/e/Docs_Uniba/Prog 3/Project/gtest/gtest.h
@@ -295,6 +349,58 @@ vector
 /mnt/e/Docs_Uniba/Prog 3/Project/Headers/Fridge.h
 ../Headers/FileOps.h
 /mnt/e/Docs_Uniba/Prog 3/Project/Headers/FileOps.h
+
+/mnt/e/Docs_Uniba/Prog 3/Project/Tests/Date_Static_Tests.cpp
+../gtest/gtest.h
+/mnt/e/Docs_Uniba/Prog 3/Project/gtest/gtest.h
+../Headers/Date.h
+/mnt/e/Docs_Uniba/Prog 3/Project/Headers/Date.h
+
+/mnt/e/Docs_Uniba/Prog 3/Project/Tests/Date_Tests.cpp
+../gtest/gtest.h
+/mnt/e/Docs_Uniba/Prog 3/Project/gtest/gtest.h
+../Headers/Date.h
+/mnt/e/Docs_Uniba/Prog 3/Project/Headers/Date.h
+
+/mnt/e/Docs_Uniba/Prog 3/Project/Tests/FileOps_Tests.cpp
+../gtest/gtest.h
+/mnt/e/Docs_Uniba/Prog 3/Project/gtest/gtest.h
+../Headers/Fridge.h
+/mnt/e/Docs_Uniba/Prog 3/Project/Headers/Fridge.h
+../Headers/FileOps.h
+/mnt/e/Docs_Uniba/Prog 3/Project/Headers/FileOps.h
+
+/mnt/e/Docs_Uniba/Prog 3/Project/Tests/Fridge_Base_Tests.cpp
+../gtest/gtest.h
+/mnt/e/Docs_Uniba/Prog 3/Project/gtest/gtest.h
+../Headers/Fridge.h
+/mnt/e/Docs_Uniba/Prog 3/Project/Headers/Fridge.h
+
+/mnt/e/Docs_Uniba/Prog 3/Project/Tests/ItemTests.cpp
+iostream
+-
+../gtest/gtest.h
+/mnt/e/Docs_Uniba/Prog 3/Project/gtest/gtest.h
+../Headers/Item.h
+/mnt/e/Docs_Uniba/Prog 3/Project/Headers/Item.h
+
+/mnt/e/Docs_Uniba/Prog 3/Project/Tests/Orders_Adv_Tests.cpp
+../gtest/gtest.h
+/mnt/e/Docs_Uniba/Prog 3/Project/gtest/gtest.h
+../Headers/Fridge.h
+/mnt/e/Docs_Uniba/Prog 3/Project/Headers/Fridge.h
+
+/mnt/e/Docs_Uniba/Prog 3/Project/Tests/Orders_Base_Tests.cpp
+../gtest/gtest.h
+/mnt/e/Docs_Uniba/Prog 3/Project/gtest/gtest.h
+../Headers/Fridge.h
+/mnt/e/Docs_Uniba/Prog 3/Project/Headers/Fridge.h
+
+/mnt/e/Docs_Uniba/Prog 3/Project/Tests/Shelf_Tests.cpp
+../gtest/gtest.h
+/mnt/e/Docs_Uniba/Prog 3/Project/gtest/gtest.h
+../Headers/Shelf.h
+/mnt/e/Docs_Uniba/Prog 3/Project/Headers/Shelf.h
 
 /mnt/e/Docs_Uniba/Prog 3/Project/gtest/gtest.h
 limits
