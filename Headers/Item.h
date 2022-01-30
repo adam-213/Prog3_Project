@@ -23,6 +23,9 @@ public:
     //* Constructor with previously declared date object
     Item(std::string name0, const Date &expirationDate);
 
+    //*For loading from files
+    Item(std::string name0, const std::string &expirationDate, int outside);
+
     //* Deleting copy constructor - not needed can't copy Items
     Item(const Item &) = delete;
 
@@ -42,10 +45,10 @@ public:
     std::string getExpirationDate() const;
 
     Date getExpiration() const
-    {return this->expiration;};
+    { return this->expiration; };
 
     void setExpiration(Date newExp)
-    {this->expiration = newExp;};
+    { this->expiration = newExp; };
 
     //* return Expiration date - global variable date in days
     int goodDays(const Date &current_date);
@@ -53,10 +56,10 @@ public:
     int goodDays();
 
     int outsideDays() const
-    {return daysOutside;};
+    { return daysOutside; };
 
     void anotherDayOutside()
-    {daysOutside += 1;};
+    { daysOutside += 1; };
 
     //* if global variable current_date > expiration date return true
     bool isBad(const Date &current_date);

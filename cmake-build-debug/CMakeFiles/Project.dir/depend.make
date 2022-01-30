@@ -186,17 +186,26 @@ CMakeFiles/Project.dir/Kod/Date_Operators.cpp.o: ../Kod/Date_Operators.cpp
 CMakeFiles/Project.dir/Kod/Date_Static.cpp.o: ../Headers/Date.h
 CMakeFiles/Project.dir/Kod/Date_Static.cpp.o: ../Kod/Date_Static.cpp
 
+CMakeFiles/Project.dir/Kod/FileOps.cpp.o: ../Headers/Date.h
+CMakeFiles/Project.dir/Kod/FileOps.cpp.o: ../Headers/FileOps.h
+CMakeFiles/Project.dir/Kod/FileOps.cpp.o: ../Headers/Fridge.h
+CMakeFiles/Project.dir/Kod/FileOps.cpp.o: ../Headers/Item.h
+CMakeFiles/Project.dir/Kod/FileOps.cpp.o: ../Headers/Shelf.h
 CMakeFiles/Project.dir/Kod/FileOps.cpp.o: ../Kod/FileOps.cpp
 
 CMakeFiles/Project.dir/Kod/Fridge.cpp.o: ../Headers/Date.h
-CMakeFiles/Project.dir/Kod/Fridge.cpp.o: ../Headers/FileOps.h
 CMakeFiles/Project.dir/Kod/Fridge.cpp.o: ../Headers/Fridge.h
 CMakeFiles/Project.dir/Kod/Fridge.cpp.o: ../Headers/Item.h
 CMakeFiles/Project.dir/Kod/Fridge.cpp.o: ../Headers/Shelf.h
 CMakeFiles/Project.dir/Kod/Fridge.cpp.o: ../Kod/Fridge.cpp
 
+CMakeFiles/Project.dir/Kod/Fridge_GetSet.cpp.o: ../Headers/Date.h
+CMakeFiles/Project.dir/Kod/Fridge_GetSet.cpp.o: ../Headers/Fridge.h
+CMakeFiles/Project.dir/Kod/Fridge_GetSet.cpp.o: ../Headers/Item.h
+CMakeFiles/Project.dir/Kod/Fridge_GetSet.cpp.o: ../Headers/Shelf.h
+CMakeFiles/Project.dir/Kod/Fridge_GetSet.cpp.o: ../Kod/Fridge_GetSet.cpp
+
 CMakeFiles/Project.dir/Kod/Fridge_put.cpp.o: ../Headers/Date.h
-CMakeFiles/Project.dir/Kod/Fridge_put.cpp.o: ../Headers/FileOps.h
 CMakeFiles/Project.dir/Kod/Fridge_put.cpp.o: ../Headers/Fridge.h
 CMakeFiles/Project.dir/Kod/Fridge_put.cpp.o: ../Headers/Item.h
 CMakeFiles/Project.dir/Kod/Fridge_put.cpp.o: ../Headers/Shelf.h
@@ -207,7 +216,6 @@ CMakeFiles/Project.dir/Kod/Item.cpp.o: ../Headers/Item.h
 CMakeFiles/Project.dir/Kod/Item.cpp.o: ../Kod/Item.cpp
 
 CMakeFiles/Project.dir/Kod/Orders.cpp.o: ../Headers/Date.h
-CMakeFiles/Project.dir/Kod/Orders.cpp.o: ../Headers/FileOps.h
 CMakeFiles/Project.dir/Kod/Orders.cpp.o: ../Headers/Fridge.h
 CMakeFiles/Project.dir/Kod/Orders.cpp.o: ../Headers/Item.h
 CMakeFiles/Project.dir/Kod/Orders.cpp.o: ../Headers/Orders_Generators.h
@@ -218,6 +226,35 @@ CMakeFiles/Project.dir/Kod/Shelf.cpp.o: ../Headers/Date.h
 CMakeFiles/Project.dir/Kod/Shelf.cpp.o: ../Headers/Item.h
 CMakeFiles/Project.dir/Kod/Shelf.cpp.o: ../Headers/Shelf.h
 CMakeFiles/Project.dir/Kod/Shelf.cpp.o: ../Kod/Shelf.cpp
+
+CMakeFiles/Project.dir/Tests/BigTest.cpp.o: ../GoogleTest/gtest/gtest-death-test.h
+CMakeFiles/Project.dir/Tests/BigTest.cpp.o: ../GoogleTest/gtest/gtest-message.h
+CMakeFiles/Project.dir/Tests/BigTest.cpp.o: ../GoogleTest/gtest/gtest-param-test.h
+CMakeFiles/Project.dir/Tests/BigTest.cpp.o: ../GoogleTest/gtest/gtest-printers.h
+CMakeFiles/Project.dir/Tests/BigTest.cpp.o: ../GoogleTest/gtest/gtest-test-part.h
+CMakeFiles/Project.dir/Tests/BigTest.cpp.o: ../GoogleTest/gtest/gtest-typed-test.h
+CMakeFiles/Project.dir/Tests/BigTest.cpp.o: ../GoogleTest/gtest/gtest_pred_impl.h
+CMakeFiles/Project.dir/Tests/BigTest.cpp.o: ../GoogleTest/gtest/gtest_prod.h
+CMakeFiles/Project.dir/Tests/BigTest.cpp.o: ../GoogleTest/gtest/internal/custom/gtest-port.h
+CMakeFiles/Project.dir/Tests/BigTest.cpp.o: ../GoogleTest/gtest/internal/custom/gtest-printers.h
+CMakeFiles/Project.dir/Tests/BigTest.cpp.o: ../GoogleTest/gtest/internal/gtest-death-test-internal.h
+CMakeFiles/Project.dir/Tests/BigTest.cpp.o: ../GoogleTest/gtest/internal/gtest-filepath.h
+CMakeFiles/Project.dir/Tests/BigTest.cpp.o: ../GoogleTest/gtest/internal/gtest-internal.h
+CMakeFiles/Project.dir/Tests/BigTest.cpp.o: ../GoogleTest/gtest/internal/gtest-linked_ptr.h
+CMakeFiles/Project.dir/Tests/BigTest.cpp.o: ../GoogleTest/gtest/internal/gtest-param-util-generated.h
+CMakeFiles/Project.dir/Tests/BigTest.cpp.o: ../GoogleTest/gtest/internal/gtest-param-util.h
+CMakeFiles/Project.dir/Tests/BigTest.cpp.o: ../GoogleTest/gtest/internal/gtest-port-arch.h
+CMakeFiles/Project.dir/Tests/BigTest.cpp.o: ../GoogleTest/gtest/internal/gtest-port.h
+CMakeFiles/Project.dir/Tests/BigTest.cpp.o: ../GoogleTest/gtest/internal/gtest-string.h
+CMakeFiles/Project.dir/Tests/BigTest.cpp.o: ../GoogleTest/gtest/internal/gtest-tuple.h
+CMakeFiles/Project.dir/Tests/BigTest.cpp.o: ../GoogleTest/gtest/internal/gtest-type-util.h
+CMakeFiles/Project.dir/Tests/BigTest.cpp.o: ../Headers/Date.h
+CMakeFiles/Project.dir/Tests/BigTest.cpp.o: ../Headers/FileOps.h
+CMakeFiles/Project.dir/Tests/BigTest.cpp.o: ../Headers/Fridge.h
+CMakeFiles/Project.dir/Tests/BigTest.cpp.o: ../Headers/Item.h
+CMakeFiles/Project.dir/Tests/BigTest.cpp.o: ../Headers/Shelf.h
+CMakeFiles/Project.dir/Tests/BigTest.cpp.o: ../Tests/BigTest.cpp
+CMakeFiles/Project.dir/Tests/BigTest.cpp.o: ../gtest/gtest.h
 
 CMakeFiles/Project.dir/Tests/Date_Static_Tests.cpp.o: ../GoogleTest/gtest/gtest-death-test.h
 CMakeFiles/Project.dir/Tests/Date_Static_Tests.cpp.o: ../GoogleTest/gtest/gtest-message.h
@@ -269,7 +306,34 @@ CMakeFiles/Project.dir/Tests/Date_Tests.cpp.o: ../Headers/Date.h
 CMakeFiles/Project.dir/Tests/Date_Tests.cpp.o: ../Tests/Date_Tests.cpp
 CMakeFiles/Project.dir/Tests/Date_Tests.cpp.o: ../gtest/gtest.h
 
+CMakeFiles/Project.dir/Tests/FileOps_Tests.cpp.o: ../GoogleTest/gtest/gtest-death-test.h
+CMakeFiles/Project.dir/Tests/FileOps_Tests.cpp.o: ../GoogleTest/gtest/gtest-message.h
+CMakeFiles/Project.dir/Tests/FileOps_Tests.cpp.o: ../GoogleTest/gtest/gtest-param-test.h
+CMakeFiles/Project.dir/Tests/FileOps_Tests.cpp.o: ../GoogleTest/gtest/gtest-printers.h
+CMakeFiles/Project.dir/Tests/FileOps_Tests.cpp.o: ../GoogleTest/gtest/gtest-test-part.h
+CMakeFiles/Project.dir/Tests/FileOps_Tests.cpp.o: ../GoogleTest/gtest/gtest-typed-test.h
+CMakeFiles/Project.dir/Tests/FileOps_Tests.cpp.o: ../GoogleTest/gtest/gtest_pred_impl.h
+CMakeFiles/Project.dir/Tests/FileOps_Tests.cpp.o: ../GoogleTest/gtest/gtest_prod.h
+CMakeFiles/Project.dir/Tests/FileOps_Tests.cpp.o: ../GoogleTest/gtest/internal/custom/gtest-port.h
+CMakeFiles/Project.dir/Tests/FileOps_Tests.cpp.o: ../GoogleTest/gtest/internal/custom/gtest-printers.h
+CMakeFiles/Project.dir/Tests/FileOps_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-death-test-internal.h
+CMakeFiles/Project.dir/Tests/FileOps_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-filepath.h
+CMakeFiles/Project.dir/Tests/FileOps_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-internal.h
+CMakeFiles/Project.dir/Tests/FileOps_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-linked_ptr.h
+CMakeFiles/Project.dir/Tests/FileOps_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-param-util-generated.h
+CMakeFiles/Project.dir/Tests/FileOps_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-param-util.h
+CMakeFiles/Project.dir/Tests/FileOps_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-port-arch.h
+CMakeFiles/Project.dir/Tests/FileOps_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-port.h
+CMakeFiles/Project.dir/Tests/FileOps_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-string.h
+CMakeFiles/Project.dir/Tests/FileOps_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-tuple.h
+CMakeFiles/Project.dir/Tests/FileOps_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-type-util.h
+CMakeFiles/Project.dir/Tests/FileOps_Tests.cpp.o: ../Headers/Date.h
+CMakeFiles/Project.dir/Tests/FileOps_Tests.cpp.o: ../Headers/FileOps.h
+CMakeFiles/Project.dir/Tests/FileOps_Tests.cpp.o: ../Headers/Fridge.h
+CMakeFiles/Project.dir/Tests/FileOps_Tests.cpp.o: ../Headers/Item.h
+CMakeFiles/Project.dir/Tests/FileOps_Tests.cpp.o: ../Headers/Shelf.h
 CMakeFiles/Project.dir/Tests/FileOps_Tests.cpp.o: ../Tests/FileOps_Tests.cpp
+CMakeFiles/Project.dir/Tests/FileOps_Tests.cpp.o: ../gtest/gtest.h
 
 CMakeFiles/Project.dir/Tests/Fridge_Base_Tests.cpp.o: ../GoogleTest/gtest/gtest-death-test.h
 CMakeFiles/Project.dir/Tests/Fridge_Base_Tests.cpp.o: ../GoogleTest/gtest/gtest-message.h
@@ -293,7 +357,6 @@ CMakeFiles/Project.dir/Tests/Fridge_Base_Tests.cpp.o: ../GoogleTest/gtest/intern
 CMakeFiles/Project.dir/Tests/Fridge_Base_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-tuple.h
 CMakeFiles/Project.dir/Tests/Fridge_Base_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-type-util.h
 CMakeFiles/Project.dir/Tests/Fridge_Base_Tests.cpp.o: ../Headers/Date.h
-CMakeFiles/Project.dir/Tests/Fridge_Base_Tests.cpp.o: ../Headers/FileOps.h
 CMakeFiles/Project.dir/Tests/Fridge_Base_Tests.cpp.o: ../Headers/Fridge.h
 CMakeFiles/Project.dir/Tests/Fridge_Base_Tests.cpp.o: ../Headers/Item.h
 CMakeFiles/Project.dir/Tests/Fridge_Base_Tests.cpp.o: ../Headers/Shelf.h
@@ -326,7 +389,61 @@ CMakeFiles/Project.dir/Tests/ItemTests.cpp.o: ../Headers/Item.h
 CMakeFiles/Project.dir/Tests/ItemTests.cpp.o: ../Tests/ItemTests.cpp
 CMakeFiles/Project.dir/Tests/ItemTests.cpp.o: ../gtest/gtest.h
 
-CMakeFiles/Project.dir/Tests/Orders_Tests.cpp.o: ../Tests/Orders_Tests.cpp
+CMakeFiles/Project.dir/Tests/Orders_Adv_Tests.cpp.o: ../GoogleTest/gtest/gtest-death-test.h
+CMakeFiles/Project.dir/Tests/Orders_Adv_Tests.cpp.o: ../GoogleTest/gtest/gtest-message.h
+CMakeFiles/Project.dir/Tests/Orders_Adv_Tests.cpp.o: ../GoogleTest/gtest/gtest-param-test.h
+CMakeFiles/Project.dir/Tests/Orders_Adv_Tests.cpp.o: ../GoogleTest/gtest/gtest-printers.h
+CMakeFiles/Project.dir/Tests/Orders_Adv_Tests.cpp.o: ../GoogleTest/gtest/gtest-test-part.h
+CMakeFiles/Project.dir/Tests/Orders_Adv_Tests.cpp.o: ../GoogleTest/gtest/gtest-typed-test.h
+CMakeFiles/Project.dir/Tests/Orders_Adv_Tests.cpp.o: ../GoogleTest/gtest/gtest_pred_impl.h
+CMakeFiles/Project.dir/Tests/Orders_Adv_Tests.cpp.o: ../GoogleTest/gtest/gtest_prod.h
+CMakeFiles/Project.dir/Tests/Orders_Adv_Tests.cpp.o: ../GoogleTest/gtest/internal/custom/gtest-port.h
+CMakeFiles/Project.dir/Tests/Orders_Adv_Tests.cpp.o: ../GoogleTest/gtest/internal/custom/gtest-printers.h
+CMakeFiles/Project.dir/Tests/Orders_Adv_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-death-test-internal.h
+CMakeFiles/Project.dir/Tests/Orders_Adv_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-filepath.h
+CMakeFiles/Project.dir/Tests/Orders_Adv_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-internal.h
+CMakeFiles/Project.dir/Tests/Orders_Adv_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-linked_ptr.h
+CMakeFiles/Project.dir/Tests/Orders_Adv_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-param-util-generated.h
+CMakeFiles/Project.dir/Tests/Orders_Adv_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-param-util.h
+CMakeFiles/Project.dir/Tests/Orders_Adv_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-port-arch.h
+CMakeFiles/Project.dir/Tests/Orders_Adv_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-port.h
+CMakeFiles/Project.dir/Tests/Orders_Adv_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-string.h
+CMakeFiles/Project.dir/Tests/Orders_Adv_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-tuple.h
+CMakeFiles/Project.dir/Tests/Orders_Adv_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-type-util.h
+CMakeFiles/Project.dir/Tests/Orders_Adv_Tests.cpp.o: ../Headers/Date.h
+CMakeFiles/Project.dir/Tests/Orders_Adv_Tests.cpp.o: ../Headers/Fridge.h
+CMakeFiles/Project.dir/Tests/Orders_Adv_Tests.cpp.o: ../Headers/Item.h
+CMakeFiles/Project.dir/Tests/Orders_Adv_Tests.cpp.o: ../Headers/Shelf.h
+CMakeFiles/Project.dir/Tests/Orders_Adv_Tests.cpp.o: ../Tests/Orders_Adv_Tests.cpp
+CMakeFiles/Project.dir/Tests/Orders_Adv_Tests.cpp.o: ../gtest/gtest.h
+
+CMakeFiles/Project.dir/Tests/Orders_Base_Tests.cpp.o: ../GoogleTest/gtest/gtest-death-test.h
+CMakeFiles/Project.dir/Tests/Orders_Base_Tests.cpp.o: ../GoogleTest/gtest/gtest-message.h
+CMakeFiles/Project.dir/Tests/Orders_Base_Tests.cpp.o: ../GoogleTest/gtest/gtest-param-test.h
+CMakeFiles/Project.dir/Tests/Orders_Base_Tests.cpp.o: ../GoogleTest/gtest/gtest-printers.h
+CMakeFiles/Project.dir/Tests/Orders_Base_Tests.cpp.o: ../GoogleTest/gtest/gtest-test-part.h
+CMakeFiles/Project.dir/Tests/Orders_Base_Tests.cpp.o: ../GoogleTest/gtest/gtest-typed-test.h
+CMakeFiles/Project.dir/Tests/Orders_Base_Tests.cpp.o: ../GoogleTest/gtest/gtest_pred_impl.h
+CMakeFiles/Project.dir/Tests/Orders_Base_Tests.cpp.o: ../GoogleTest/gtest/gtest_prod.h
+CMakeFiles/Project.dir/Tests/Orders_Base_Tests.cpp.o: ../GoogleTest/gtest/internal/custom/gtest-port.h
+CMakeFiles/Project.dir/Tests/Orders_Base_Tests.cpp.o: ../GoogleTest/gtest/internal/custom/gtest-printers.h
+CMakeFiles/Project.dir/Tests/Orders_Base_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-death-test-internal.h
+CMakeFiles/Project.dir/Tests/Orders_Base_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-filepath.h
+CMakeFiles/Project.dir/Tests/Orders_Base_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-internal.h
+CMakeFiles/Project.dir/Tests/Orders_Base_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-linked_ptr.h
+CMakeFiles/Project.dir/Tests/Orders_Base_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-param-util-generated.h
+CMakeFiles/Project.dir/Tests/Orders_Base_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-param-util.h
+CMakeFiles/Project.dir/Tests/Orders_Base_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-port-arch.h
+CMakeFiles/Project.dir/Tests/Orders_Base_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-port.h
+CMakeFiles/Project.dir/Tests/Orders_Base_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-string.h
+CMakeFiles/Project.dir/Tests/Orders_Base_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-tuple.h
+CMakeFiles/Project.dir/Tests/Orders_Base_Tests.cpp.o: ../GoogleTest/gtest/internal/gtest-type-util.h
+CMakeFiles/Project.dir/Tests/Orders_Base_Tests.cpp.o: ../Headers/Date.h
+CMakeFiles/Project.dir/Tests/Orders_Base_Tests.cpp.o: ../Headers/Fridge.h
+CMakeFiles/Project.dir/Tests/Orders_Base_Tests.cpp.o: ../Headers/Item.h
+CMakeFiles/Project.dir/Tests/Orders_Base_Tests.cpp.o: ../Headers/Shelf.h
+CMakeFiles/Project.dir/Tests/Orders_Base_Tests.cpp.o: ../Tests/Orders_Base_Tests.cpp
+CMakeFiles/Project.dir/Tests/Orders_Base_Tests.cpp.o: ../gtest/gtest.h
 
 CMakeFiles/Project.dir/Tests/Shelf_Tests.cpp.o: ../GoogleTest/gtest/gtest-death-test.h
 CMakeFiles/Project.dir/Tests/Shelf_Tests.cpp.o: ../GoogleTest/gtest/gtest-message.h

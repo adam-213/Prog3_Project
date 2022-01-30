@@ -187,17 +187,26 @@ CMakeFiles/Project.dir/Kod/Date_Static.cpp.o
  /mnt/e/Docs_Uniba/Prog 3/Project/Headers/Date.h
  /mnt/e/Docs_Uniba/Prog 3/Project/Kod/Date_Static.cpp
 CMakeFiles/Project.dir/Kod/FileOps.cpp.o
- /mnt/e/Docs_Uniba/Prog 3/Project/Kod/FileOps.cpp
-CMakeFiles/Project.dir/Kod/Fridge.cpp.o
  /mnt/e/Docs_Uniba/Prog 3/Project/Headers/Date.h
  /mnt/e/Docs_Uniba/Prog 3/Project/Headers/FileOps.h
  /mnt/e/Docs_Uniba/Prog 3/Project/Headers/Fridge.h
  /mnt/e/Docs_Uniba/Prog 3/Project/Headers/Item.h
  /mnt/e/Docs_Uniba/Prog 3/Project/Headers/Shelf.h
+ /mnt/e/Docs_Uniba/Prog 3/Project/Kod/FileOps.cpp
+CMakeFiles/Project.dir/Kod/Fridge.cpp.o
+ /mnt/e/Docs_Uniba/Prog 3/Project/Headers/Date.h
+ /mnt/e/Docs_Uniba/Prog 3/Project/Headers/Fridge.h
+ /mnt/e/Docs_Uniba/Prog 3/Project/Headers/Item.h
+ /mnt/e/Docs_Uniba/Prog 3/Project/Headers/Shelf.h
  /mnt/e/Docs_Uniba/Prog 3/Project/Kod/Fridge.cpp
+CMakeFiles/Project.dir/Kod/Fridge_GetSet.cpp.o
+ /mnt/e/Docs_Uniba/Prog 3/Project/Headers/Date.h
+ /mnt/e/Docs_Uniba/Prog 3/Project/Headers/Fridge.h
+ /mnt/e/Docs_Uniba/Prog 3/Project/Headers/Item.h
+ /mnt/e/Docs_Uniba/Prog 3/Project/Headers/Shelf.h
+ /mnt/e/Docs_Uniba/Prog 3/Project/Kod/Fridge_GetSet.cpp
 CMakeFiles/Project.dir/Kod/Fridge_put.cpp.o
  /mnt/e/Docs_Uniba/Prog 3/Project/Headers/Date.h
- /mnt/e/Docs_Uniba/Prog 3/Project/Headers/FileOps.h
  /mnt/e/Docs_Uniba/Prog 3/Project/Headers/Fridge.h
  /mnt/e/Docs_Uniba/Prog 3/Project/Headers/Item.h
  /mnt/e/Docs_Uniba/Prog 3/Project/Headers/Shelf.h
@@ -208,7 +217,6 @@ CMakeFiles/Project.dir/Kod/Item.cpp.o
  /mnt/e/Docs_Uniba/Prog 3/Project/Kod/Item.cpp
 CMakeFiles/Project.dir/Kod/Orders.cpp.o
  /mnt/e/Docs_Uniba/Prog 3/Project/Headers/Date.h
- /mnt/e/Docs_Uniba/Prog 3/Project/Headers/FileOps.h
  /mnt/e/Docs_Uniba/Prog 3/Project/Headers/Fridge.h
  /mnt/e/Docs_Uniba/Prog 3/Project/Headers/Item.h
  /mnt/e/Docs_Uniba/Prog 3/Project/Headers/Orders_Generators.h
@@ -219,6 +227,35 @@ CMakeFiles/Project.dir/Kod/Shelf.cpp.o
  /mnt/e/Docs_Uniba/Prog 3/Project/Headers/Item.h
  /mnt/e/Docs_Uniba/Prog 3/Project/Headers/Shelf.h
  /mnt/e/Docs_Uniba/Prog 3/Project/Kod/Shelf.cpp
+CMakeFiles/Project.dir/Tests/BigTest.cpp.o
+ ../GoogleTest/gtest/gtest-death-test.h
+ ../GoogleTest/gtest/gtest-message.h
+ ../GoogleTest/gtest/gtest-param-test.h
+ ../GoogleTest/gtest/gtest-printers.h
+ ../GoogleTest/gtest/gtest-test-part.h
+ ../GoogleTest/gtest/gtest-typed-test.h
+ ../GoogleTest/gtest/gtest_pred_impl.h
+ ../GoogleTest/gtest/gtest_prod.h
+ ../GoogleTest/gtest/internal/custom/gtest-port.h
+ ../GoogleTest/gtest/internal/custom/gtest-printers.h
+ ../GoogleTest/gtest/internal/gtest-death-test-internal.h
+ ../GoogleTest/gtest/internal/gtest-filepath.h
+ ../GoogleTest/gtest/internal/gtest-internal.h
+ ../GoogleTest/gtest/internal/gtest-linked_ptr.h
+ ../GoogleTest/gtest/internal/gtest-param-util-generated.h
+ ../GoogleTest/gtest/internal/gtest-param-util.h
+ ../GoogleTest/gtest/internal/gtest-port-arch.h
+ ../GoogleTest/gtest/internal/gtest-port.h
+ ../GoogleTest/gtest/internal/gtest-string.h
+ ../GoogleTest/gtest/internal/gtest-tuple.h
+ ../GoogleTest/gtest/internal/gtest-type-util.h
+ /mnt/e/Docs_Uniba/Prog 3/Project/Headers/Date.h
+ /mnt/e/Docs_Uniba/Prog 3/Project/Headers/FileOps.h
+ /mnt/e/Docs_Uniba/Prog 3/Project/Headers/Fridge.h
+ /mnt/e/Docs_Uniba/Prog 3/Project/Headers/Item.h
+ /mnt/e/Docs_Uniba/Prog 3/Project/Headers/Shelf.h
+ /mnt/e/Docs_Uniba/Prog 3/Project/Tests/BigTest.cpp
+ /mnt/e/Docs_Uniba/Prog 3/Project/gtest/gtest.h
 CMakeFiles/Project.dir/Tests/Date_Static_Tests.cpp.o
  ../GoogleTest/gtest/gtest-death-test.h
  ../GoogleTest/gtest/gtest-message.h
@@ -270,8 +307,6 @@ CMakeFiles/Project.dir/Tests/Date_Tests.cpp.o
  /mnt/e/Docs_Uniba/Prog 3/Project/Tests/Date_Tests.cpp
  /mnt/e/Docs_Uniba/Prog 3/Project/gtest/gtest.h
 CMakeFiles/Project.dir/Tests/FileOps_Tests.cpp.o
- /mnt/e/Docs_Uniba/Prog 3/Project/Tests/FileOps_Tests.cpp
-CMakeFiles/Project.dir/Tests/Fridge_Base_Tests.cpp.o
  ../GoogleTest/gtest/gtest-death-test.h
  ../GoogleTest/gtest/gtest-message.h
  ../GoogleTest/gtest/gtest-param-test.h
@@ -295,6 +330,34 @@ CMakeFiles/Project.dir/Tests/Fridge_Base_Tests.cpp.o
  ../GoogleTest/gtest/internal/gtest-type-util.h
  /mnt/e/Docs_Uniba/Prog 3/Project/Headers/Date.h
  /mnt/e/Docs_Uniba/Prog 3/Project/Headers/FileOps.h
+ /mnt/e/Docs_Uniba/Prog 3/Project/Headers/Fridge.h
+ /mnt/e/Docs_Uniba/Prog 3/Project/Headers/Item.h
+ /mnt/e/Docs_Uniba/Prog 3/Project/Headers/Shelf.h
+ /mnt/e/Docs_Uniba/Prog 3/Project/Tests/FileOps_Tests.cpp
+ /mnt/e/Docs_Uniba/Prog 3/Project/gtest/gtest.h
+CMakeFiles/Project.dir/Tests/Fridge_Base_Tests.cpp.o
+ ../GoogleTest/gtest/gtest-death-test.h
+ ../GoogleTest/gtest/gtest-message.h
+ ../GoogleTest/gtest/gtest-param-test.h
+ ../GoogleTest/gtest/gtest-printers.h
+ ../GoogleTest/gtest/gtest-test-part.h
+ ../GoogleTest/gtest/gtest-typed-test.h
+ ../GoogleTest/gtest/gtest_pred_impl.h
+ ../GoogleTest/gtest/gtest_prod.h
+ ../GoogleTest/gtest/internal/custom/gtest-port.h
+ ../GoogleTest/gtest/internal/custom/gtest-printers.h
+ ../GoogleTest/gtest/internal/gtest-death-test-internal.h
+ ../GoogleTest/gtest/internal/gtest-filepath.h
+ ../GoogleTest/gtest/internal/gtest-internal.h
+ ../GoogleTest/gtest/internal/gtest-linked_ptr.h
+ ../GoogleTest/gtest/internal/gtest-param-util-generated.h
+ ../GoogleTest/gtest/internal/gtest-param-util.h
+ ../GoogleTest/gtest/internal/gtest-port-arch.h
+ ../GoogleTest/gtest/internal/gtest-port.h
+ ../GoogleTest/gtest/internal/gtest-string.h
+ ../GoogleTest/gtest/internal/gtest-tuple.h
+ ../GoogleTest/gtest/internal/gtest-type-util.h
+ /mnt/e/Docs_Uniba/Prog 3/Project/Headers/Date.h
  /mnt/e/Docs_Uniba/Prog 3/Project/Headers/Fridge.h
  /mnt/e/Docs_Uniba/Prog 3/Project/Headers/Item.h
  /mnt/e/Docs_Uniba/Prog 3/Project/Headers/Shelf.h
@@ -326,8 +389,62 @@ CMakeFiles/Project.dir/Tests/ItemTests.cpp.o
  /mnt/e/Docs_Uniba/Prog 3/Project/Headers/Item.h
  /mnt/e/Docs_Uniba/Prog 3/Project/Tests/ItemTests.cpp
  /mnt/e/Docs_Uniba/Prog 3/Project/gtest/gtest.h
-CMakeFiles/Project.dir/Tests/Orders_Tests.cpp.o
- /mnt/e/Docs_Uniba/Prog 3/Project/Tests/Orders_Tests.cpp
+CMakeFiles/Project.dir/Tests/Orders_Adv_Tests.cpp.o
+ ../GoogleTest/gtest/gtest-death-test.h
+ ../GoogleTest/gtest/gtest-message.h
+ ../GoogleTest/gtest/gtest-param-test.h
+ ../GoogleTest/gtest/gtest-printers.h
+ ../GoogleTest/gtest/gtest-test-part.h
+ ../GoogleTest/gtest/gtest-typed-test.h
+ ../GoogleTest/gtest/gtest_pred_impl.h
+ ../GoogleTest/gtest/gtest_prod.h
+ ../GoogleTest/gtest/internal/custom/gtest-port.h
+ ../GoogleTest/gtest/internal/custom/gtest-printers.h
+ ../GoogleTest/gtest/internal/gtest-death-test-internal.h
+ ../GoogleTest/gtest/internal/gtest-filepath.h
+ ../GoogleTest/gtest/internal/gtest-internal.h
+ ../GoogleTest/gtest/internal/gtest-linked_ptr.h
+ ../GoogleTest/gtest/internal/gtest-param-util-generated.h
+ ../GoogleTest/gtest/internal/gtest-param-util.h
+ ../GoogleTest/gtest/internal/gtest-port-arch.h
+ ../GoogleTest/gtest/internal/gtest-port.h
+ ../GoogleTest/gtest/internal/gtest-string.h
+ ../GoogleTest/gtest/internal/gtest-tuple.h
+ ../GoogleTest/gtest/internal/gtest-type-util.h
+ /mnt/e/Docs_Uniba/Prog 3/Project/Headers/Date.h
+ /mnt/e/Docs_Uniba/Prog 3/Project/Headers/Fridge.h
+ /mnt/e/Docs_Uniba/Prog 3/Project/Headers/Item.h
+ /mnt/e/Docs_Uniba/Prog 3/Project/Headers/Shelf.h
+ /mnt/e/Docs_Uniba/Prog 3/Project/Tests/Orders_Adv_Tests.cpp
+ /mnt/e/Docs_Uniba/Prog 3/Project/gtest/gtest.h
+CMakeFiles/Project.dir/Tests/Orders_Base_Tests.cpp.o
+ ../GoogleTest/gtest/gtest-death-test.h
+ ../GoogleTest/gtest/gtest-message.h
+ ../GoogleTest/gtest/gtest-param-test.h
+ ../GoogleTest/gtest/gtest-printers.h
+ ../GoogleTest/gtest/gtest-test-part.h
+ ../GoogleTest/gtest/gtest-typed-test.h
+ ../GoogleTest/gtest/gtest_pred_impl.h
+ ../GoogleTest/gtest/gtest_prod.h
+ ../GoogleTest/gtest/internal/custom/gtest-port.h
+ ../GoogleTest/gtest/internal/custom/gtest-printers.h
+ ../GoogleTest/gtest/internal/gtest-death-test-internal.h
+ ../GoogleTest/gtest/internal/gtest-filepath.h
+ ../GoogleTest/gtest/internal/gtest-internal.h
+ ../GoogleTest/gtest/internal/gtest-linked_ptr.h
+ ../GoogleTest/gtest/internal/gtest-param-util-generated.h
+ ../GoogleTest/gtest/internal/gtest-param-util.h
+ ../GoogleTest/gtest/internal/gtest-port-arch.h
+ ../GoogleTest/gtest/internal/gtest-port.h
+ ../GoogleTest/gtest/internal/gtest-string.h
+ ../GoogleTest/gtest/internal/gtest-tuple.h
+ ../GoogleTest/gtest/internal/gtest-type-util.h
+ /mnt/e/Docs_Uniba/Prog 3/Project/Headers/Date.h
+ /mnt/e/Docs_Uniba/Prog 3/Project/Headers/Fridge.h
+ /mnt/e/Docs_Uniba/Prog 3/Project/Headers/Item.h
+ /mnt/e/Docs_Uniba/Prog 3/Project/Headers/Shelf.h
+ /mnt/e/Docs_Uniba/Prog 3/Project/Tests/Orders_Base_Tests.cpp
+ /mnt/e/Docs_Uniba/Prog 3/Project/gtest/gtest.h
 CMakeFiles/Project.dir/Tests/Shelf_Tests.cpp.o
  ../GoogleTest/gtest/gtest-death-test.h
  ../GoogleTest/gtest/gtest-message.h

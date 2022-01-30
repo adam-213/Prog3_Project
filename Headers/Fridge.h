@@ -2,7 +2,6 @@
 
 #include "Shelf.h"
 #include "Item.h"
-#include "FileOps.h"
 
 #include <numeric>
 #include <map>
@@ -12,19 +11,22 @@ const std::string DUMMY_DATE = "01-01-1970";
 class Fridge
 {
     Date currentDate;
-    int actionCounter = 0;
-    std::vector<Shelf> shelves; //Last shelf is an overflow shelf that isn't actually in the fridge
+    int actionCounter = 0; // every 3 actions move to the next day
+    //Every UI method does this - some that are "internal" don't
+    std::vector<Shelf> shelves; // Shelves are initialized with some space
+    //#of chars in Item names that can fit there
     std::multimap<std::string, Item> onOrder; //things that are on order will arrive in "future"
-    Shelf overflow; //* Shelf outside the fridge - Any items in it have halved Expiration Date
+    Shelf overflow; // Shelf outside the fridge
+    // Any items in it expire twice as fast
     int space = 0;
-
-
-private:
+    int seed = 0; // Seed for random generators in Orders_Generators
 
 public:
-    Fridge(std::vector<int> shelfSpace, Date curDate);
+    Fridge();
 
-    Fridge(std::vector<int> shelfSpace, std::string curDate);
+    Fridge(std::vector<int> shelfSpace, Date curDate, int seed = 0);
+
+    Fridge(std::vector<int> shelfSpace, std::string curDate, int seed = 0);
 
     //* Returns Item with the closest expiration date to current Date and matching name
     Item get(std::string name);
@@ -41,11 +43,13 @@ public:
     //* Create item with name and expiration date and try inserting it to the #shelf with enough space else return -1
     int put(std::string name, std::string date, int shelfNum);
 
+    int put(std::string name, std::string date, int outside, int shelfNum);
+
     //* Returns vector of references to items whose expiration dated is within a constant from current day
-    std::vector<Item *> closeToExpiration(int threshold=5 ,bool internal=false);
+    std::vector<Item *> closeToExpiration(int threshold = 5, bool internal = false);
 
     //* Vector of expired references to expired items in the fridge
-    std::vector<Item *> expired(bool internal=false);
+    std::vector<Item *> expired(bool internal = false);
 
     //* Number of expired things in the fridge
     int numOfExpired();
@@ -56,7 +60,7 @@ public:
     //* All things on the # shelf
     std::vector<Item *> inventory(int shelf);
 
-    //TODO 5 above for overflow
+    int itemsInOverflow();
 
     //* number of free "slots" in the fridge
     int free();
@@ -64,18 +68,30 @@ public:
     //* number of free "slots" on a given shelf
     int free(int shelf);
 
-    Date getCurrentDate() const
-    {return currentDate;};
+    //*Used for FileOps
+    void insertToOverflow(Item &&it);
 
-    //* README
-    // i wawnted to write something but i forgot
-    //
-    //
-    //
-    //
-    // *//
+    [[nodiscard]] Date getCurrentDate() const;
 
+    //*Returns vector of pointers to Items which are on the shelves
+    std::vector<Shelf *> getShelves();
 
+    //*Returns vector of pointers to Items which are in the overflow
+    std::vector<Item *> getOverFlow();
+
+    //Returns vector of pairs as they are in the orders ArrivalDate:Pointer to Item;
+    [[nodiscard]] std::vector<std::pair<std::string, const Item *>> getOrders() const;
+
+    [[nodiscard]] int getCounter() const;
+
+    void setCurrentDate(std::string date);
+
+    void insertToOrder(std::pair<std::string, Item> &&pair);
+
+    void setActionCounter(int counter);
+    //*End of Usage for FileOps
+
+    //Orders
     //* Increase day by one - Part of the orders, call arrivalChecker
     void advanceDay();
 
@@ -99,13 +115,7 @@ public:
     void itemToOrder(std::string item);
 
     //* Put vector of pairs on order - pair consist of name of the item and #of said item,
-    void orderVector(std::vector<std::pair<std::string, int>> pairVector);
+    void vectorToOrder(std::vector<std::pair<std::string, int>> pairVector);
 
 
-    //TODO Later
-
-
-
-
-    void InvFromFile(std::string filename);
 };

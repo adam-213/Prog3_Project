@@ -48,7 +48,7 @@ void Shelf::deleter()
     {
         if (stores[i].getName().empty() && stores[i].getExpirationDate().empty())
         {
-            stores.erase(stores.begin()+i);
+            stores.erase(stores.begin() + i);
         }
     }
 }

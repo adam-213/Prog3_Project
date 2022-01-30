@@ -34,6 +34,7 @@ public:
     //* Removing the item that is passed from this shelf by comparing &
     void removeItem(const Item &original);
 
+    //* When the Item object moves it leaves a hollow object which needs to be deleted
     void deleter();
 
     int getFreeSpace() const
@@ -42,8 +43,24 @@ public:
     int getNumber() const
     { return shelfNumber; };
 
+    int getSpace() const
+    { return shelfSpace; };
+
     //* returns the full reference to the stores vector. Used for taking inventory.
     std::vector<Item> &getContents()
     { return stores; };
 
+    //* Same as above but returns pointers - used for FileOps;
+    std::vector<Item *> getItems()
+    {
+        std::vector<Item *> out;
+        for (auto &item: stores)
+        {
+            out.push_back(&item);
+        }
+        return out;
+    }
+
+    //Default constructor needed for FileOps
+    Shelf() = default;
 };

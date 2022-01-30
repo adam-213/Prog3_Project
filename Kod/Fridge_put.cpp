@@ -43,3 +43,10 @@ int Fridge::put(std::string name, std::string date, int shelfNum)
     return this->put(std::move(item), shelfNum);
 }
 
+
+int Fridge::put(std::string name, std::string date, int outside, int shelfNum)
+{
+    auto item = Item(std::move(name), date, outside);
+    return this->put(std::move(item), shelfNum);
+
+}

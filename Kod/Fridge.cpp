@@ -65,7 +65,7 @@ std::vector<Item *> Fridge::expired(bool internal)
         dayUpdater();
     }
     //if set to 0 it would return everything that's expired and that expires today
-    return this->closeToExpiration(-1,true);
+    return this->closeToExpiration(-1, true);
 }
 
 int Fridge::numOfExpired()
@@ -122,26 +122,32 @@ int Fridge::free(int shelf)
     return shelves[shelf].getFreeSpace();
 }
 
-Fridge::Fridge(std::vector<int> shelfSpace, Date curDate) : overflow(999999, 999)
+Fridge::Fridge(std::vector<int> shelfSpace, Date curDate, int seed) : overflow(999999, 999)
 {
     auto c = 0;
+    this->seed = seed;
     this->currentDate = curDate;
     for (auto &size: shelfSpace)
     {
         //this is some cool stuff specifically the emplace back, which takes the params and calls the constructor in place.
         this->shelves.emplace_back(size, c);
+        c++;
     }
     std::accumulate(shelfSpace.begin(), shelfSpace.end(), this->space);
 }
 
-Fridge::Fridge(std::vector<int> shelfSpace, std::string curDate) : overflow(999999, 999)
+Fridge::Fridge(std::vector<int> shelfSpace, std::string curDate, int seed) : overflow(999999, 999)
 {
     auto c = 0;
+    this->seed = seed;
     this->currentDate = Date(curDate);
     for (auto &size: shelfSpace)
     {
         //this is some cool stuff specifically the emplace back, which takes the params and calls the constructor in place.
         this->shelves.emplace_back(size, c);
+        c++;
     }
     std::accumulate(shelfSpace.begin(), shelfSpace.end(), this->space);
 }
+
+Fridge::Fridge() = default;

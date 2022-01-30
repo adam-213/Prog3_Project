@@ -141,6 +141,9 @@
 		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Kod/Fridge.cpp">
 			<Option target="Project"/>
 		</Unit>
+		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Kod/Fridge_GetSet.cpp">
+			<Option target="Project"/>
+		</Unit>
 		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Kod/Fridge_put.cpp">
 			<Option target="Project"/>
 		</Unit>
@@ -151,6 +154,9 @@
 			<Option target="Project"/>
 		</Unit>
 		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Kod/Shelf.cpp">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Tests/BigTest.cpp">
 			<Option target="Project"/>
 		</Unit>
 		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Tests/Date_Static_Tests.cpp">
@@ -168,7 +174,10 @@
 		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Tests/ItemTests.cpp">
 			<Option target="Project"/>
 		</Unit>
-		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Tests/Orders_Tests.cpp">
+		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Tests/Orders_Adv_Tests.cpp">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Tests/Orders_Base_Tests.cpp">
 			<Option target="Project"/>
 		</Unit>
 		<Unit filename="/mnt/e/Docs_Uniba/Prog 3/Project/Tests/Shelf_Tests.cpp">

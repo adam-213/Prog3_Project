@@ -474,6 +474,33 @@ Kod/Fridge.cpp.s:
 	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Kod/Fridge.cpp.s
 .PHONY : Kod/Fridge.cpp.s
 
+Kod/Fridge_GetSet.o: Kod/Fridge_GetSet.cpp.o
+
+.PHONY : Kod/Fridge_GetSet.o
+
+# target to build an object file
+Kod/Fridge_GetSet.cpp.o:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Kod/Fridge_GetSet.cpp.o
+.PHONY : Kod/Fridge_GetSet.cpp.o
+
+Kod/Fridge_GetSet.i: Kod/Fridge_GetSet.cpp.i
+
+.PHONY : Kod/Fridge_GetSet.i
+
+# target to preprocess a source file
+Kod/Fridge_GetSet.cpp.i:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Kod/Fridge_GetSet.cpp.i
+.PHONY : Kod/Fridge_GetSet.cpp.i
+
+Kod/Fridge_GetSet.s: Kod/Fridge_GetSet.cpp.s
+
+.PHONY : Kod/Fridge_GetSet.s
+
+# target to generate assembly for a file
+Kod/Fridge_GetSet.cpp.s:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Kod/Fridge_GetSet.cpp.s
+.PHONY : Kod/Fridge_GetSet.cpp.s
+
 Kod/Fridge_put.o: Kod/Fridge_put.cpp.o
 
 .PHONY : Kod/Fridge_put.o
@@ -581,6 +608,33 @@ Kod/Shelf.s: Kod/Shelf.cpp.s
 Kod/Shelf.cpp.s:
 	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Kod/Shelf.cpp.s
 .PHONY : Kod/Shelf.cpp.s
+
+Tests/BigTest.o: Tests/BigTest.cpp.o
+
+.PHONY : Tests/BigTest.o
+
+# target to build an object file
+Tests/BigTest.cpp.o:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Tests/BigTest.cpp.o
+.PHONY : Tests/BigTest.cpp.o
+
+Tests/BigTest.i: Tests/BigTest.cpp.i
+
+.PHONY : Tests/BigTest.i
+
+# target to preprocess a source file
+Tests/BigTest.cpp.i:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Tests/BigTest.cpp.i
+.PHONY : Tests/BigTest.cpp.i
+
+Tests/BigTest.s: Tests/BigTest.cpp.s
+
+.PHONY : Tests/BigTest.s
+
+# target to generate assembly for a file
+Tests/BigTest.cpp.s:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Tests/BigTest.cpp.s
+.PHONY : Tests/BigTest.cpp.s
 
 Tests/Date_Static_Tests.o: Tests/Date_Static_Tests.cpp.o
 
@@ -717,32 +771,59 @@ Tests/ItemTests.cpp.s:
 	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Tests/ItemTests.cpp.s
 .PHONY : Tests/ItemTests.cpp.s
 
-Tests/Orders_Tests.o: Tests/Orders_Tests.cpp.o
+Tests/Orders_Adv_Tests.o: Tests/Orders_Adv_Tests.cpp.o
 
-.PHONY : Tests/Orders_Tests.o
+.PHONY : Tests/Orders_Adv_Tests.o
 
 # target to build an object file
-Tests/Orders_Tests.cpp.o:
-	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Tests/Orders_Tests.cpp.o
-.PHONY : Tests/Orders_Tests.cpp.o
+Tests/Orders_Adv_Tests.cpp.o:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Tests/Orders_Adv_Tests.cpp.o
+.PHONY : Tests/Orders_Adv_Tests.cpp.o
 
-Tests/Orders_Tests.i: Tests/Orders_Tests.cpp.i
+Tests/Orders_Adv_Tests.i: Tests/Orders_Adv_Tests.cpp.i
 
-.PHONY : Tests/Orders_Tests.i
+.PHONY : Tests/Orders_Adv_Tests.i
 
 # target to preprocess a source file
-Tests/Orders_Tests.cpp.i:
-	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Tests/Orders_Tests.cpp.i
-.PHONY : Tests/Orders_Tests.cpp.i
+Tests/Orders_Adv_Tests.cpp.i:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Tests/Orders_Adv_Tests.cpp.i
+.PHONY : Tests/Orders_Adv_Tests.cpp.i
 
-Tests/Orders_Tests.s: Tests/Orders_Tests.cpp.s
+Tests/Orders_Adv_Tests.s: Tests/Orders_Adv_Tests.cpp.s
 
-.PHONY : Tests/Orders_Tests.s
+.PHONY : Tests/Orders_Adv_Tests.s
 
 # target to generate assembly for a file
-Tests/Orders_Tests.cpp.s:
-	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Tests/Orders_Tests.cpp.s
-.PHONY : Tests/Orders_Tests.cpp.s
+Tests/Orders_Adv_Tests.cpp.s:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Tests/Orders_Adv_Tests.cpp.s
+.PHONY : Tests/Orders_Adv_Tests.cpp.s
+
+Tests/Orders_Base_Tests.o: Tests/Orders_Base_Tests.cpp.o
+
+.PHONY : Tests/Orders_Base_Tests.o
+
+# target to build an object file
+Tests/Orders_Base_Tests.cpp.o:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Tests/Orders_Base_Tests.cpp.o
+.PHONY : Tests/Orders_Base_Tests.cpp.o
+
+Tests/Orders_Base_Tests.i: Tests/Orders_Base_Tests.cpp.i
+
+.PHONY : Tests/Orders_Base_Tests.i
+
+# target to preprocess a source file
+Tests/Orders_Base_Tests.cpp.i:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Tests/Orders_Base_Tests.cpp.i
+.PHONY : Tests/Orders_Base_Tests.cpp.i
+
+Tests/Orders_Base_Tests.s: Tests/Orders_Base_Tests.cpp.s
+
+.PHONY : Tests/Orders_Base_Tests.s
+
+# target to generate assembly for a file
+Tests/Orders_Base_Tests.cpp.s:
+	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/Tests/Orders_Base_Tests.cpp.s
+.PHONY : Tests/Orders_Base_Tests.cpp.s
 
 Tests/Shelf_Tests.o: Tests/Shelf_Tests.cpp.o
 
@@ -819,6 +900,9 @@ help:
 	@echo "... Kod/Fridge.o"
 	@echo "... Kod/Fridge.i"
 	@echo "... Kod/Fridge.s"
+	@echo "... Kod/Fridge_GetSet.o"
+	@echo "... Kod/Fridge_GetSet.i"
+	@echo "... Kod/Fridge_GetSet.s"
 	@echo "... Kod/Fridge_put.o"
 	@echo "... Kod/Fridge_put.i"
 	@echo "... Kod/Fridge_put.s"
@@ -831,6 +915,9 @@ help:
 	@echo "... Kod/Shelf.o"
 	@echo "... Kod/Shelf.i"
 	@echo "... Kod/Shelf.s"
+	@echo "... Tests/BigTest.o"
+	@echo "... Tests/BigTest.i"
+	@echo "... Tests/BigTest.s"
 	@echo "... Tests/Date_Static_Tests.o"
 	@echo "... Tests/Date_Static_Tests.i"
 	@echo "... Tests/Date_Static_Tests.s"
@@ -846,9 +933,12 @@ help:
 	@echo "... Tests/ItemTests.o"
 	@echo "... Tests/ItemTests.i"
 	@echo "... Tests/ItemTests.s"
-	@echo "... Tests/Orders_Tests.o"
-	@echo "... Tests/Orders_Tests.i"
-	@echo "... Tests/Orders_Tests.s"
+	@echo "... Tests/Orders_Adv_Tests.o"
+	@echo "... Tests/Orders_Adv_Tests.i"
+	@echo "... Tests/Orders_Adv_Tests.s"
+	@echo "... Tests/Orders_Base_Tests.o"
+	@echo "... Tests/Orders_Base_Tests.i"
+	@echo "... Tests/Orders_Base_Tests.s"
 	@echo "... Tests/Shelf_Tests.o"
 	@echo "... Tests/Shelf_Tests.i"
 	@echo "... Tests/Shelf_Tests.s"

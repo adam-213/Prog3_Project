@@ -25,17 +25,17 @@ set(
         Kod/Date_Operators.cpp Kod/Date_Static.cpp
         Tests/Date_Static_Tests.cpp Tests/Date_Tests.cpp
 
-        Headers/FileOps.h Kod/FileOps.cpp
+        Kod/FileOps.cpp
 
         Headers/Fridge.h Kod/Fridge.cpp Kod/Fridge_put.cpp
         Tests/Fridge_Base_Tests.cpp
 
         Kod/Orders.cpp Headers/Orders_Generators.h
-        Tests/Orders_Tests.cpp
+        Tests/Orders_Base_Tests.cpp
 
         Headers/Shelf.h Kod/Shelf.cpp
         Tests/Shelf_Tests.cpp
-        Tests/FileOps_Tests.cpp)
+        Tests/FileOps_Tests.cpp Tests/Orders_Adv_Tests.cpp Tests/BigTest.cpp Headers/FileOps.h Kod/Fridge_GetSet.cpp)
 
 
 include_directories(GoogleTest)

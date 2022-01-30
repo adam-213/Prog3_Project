@@ -317,18 +317,18 @@ CMakeFiles/Project.dir/Kod/Orders.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project.dir/Kod/Orders.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/e/Docs_Uniba/Prog 3/Project/Kod/Orders.cpp" -o CMakeFiles/Project.dir/Kod/Orders.cpp.s
 
-CMakeFiles/Project.dir/Tests/Orders_Tests.cpp.o: CMakeFiles/Project.dir/flags.make
-CMakeFiles/Project.dir/Tests/Orders_Tests.cpp.o: ../Tests/Orders_Tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/e/Docs_Uniba/Prog 3/Project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Project.dir/Tests/Orders_Tests.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project.dir/Tests/Orders_Tests.cpp.o -c "/mnt/e/Docs_Uniba/Prog 3/Project/Tests/Orders_Tests.cpp"
+CMakeFiles/Project.dir/Tests/Orders_Base_Tests.cpp.o: CMakeFiles/Project.dir/flags.make
+CMakeFiles/Project.dir/Tests/Orders_Base_Tests.cpp.o: ../Tests/Orders_Base_Tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/e/Docs_Uniba/Prog 3/Project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Project.dir/Tests/Orders_Base_Tests.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project.dir/Tests/Orders_Base_Tests.cpp.o -c "/mnt/e/Docs_Uniba/Prog 3/Project/Tests/Orders_Base_Tests.cpp"
 
-CMakeFiles/Project.dir/Tests/Orders_Tests.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project.dir/Tests/Orders_Tests.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/e/Docs_Uniba/Prog 3/Project/Tests/Orders_Tests.cpp" > CMakeFiles/Project.dir/Tests/Orders_Tests.cpp.i
+CMakeFiles/Project.dir/Tests/Orders_Base_Tests.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project.dir/Tests/Orders_Base_Tests.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/e/Docs_Uniba/Prog 3/Project/Tests/Orders_Base_Tests.cpp" > CMakeFiles/Project.dir/Tests/Orders_Base_Tests.cpp.i
 
-CMakeFiles/Project.dir/Tests/Orders_Tests.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project.dir/Tests/Orders_Tests.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/e/Docs_Uniba/Prog 3/Project/Tests/Orders_Tests.cpp" -o CMakeFiles/Project.dir/Tests/Orders_Tests.cpp.s
+CMakeFiles/Project.dir/Tests/Orders_Base_Tests.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project.dir/Tests/Orders_Base_Tests.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/e/Docs_Uniba/Prog 3/Project/Tests/Orders_Base_Tests.cpp" -o CMakeFiles/Project.dir/Tests/Orders_Base_Tests.cpp.s
 
 CMakeFiles/Project.dir/Kod/Shelf.cpp.o: CMakeFiles/Project.dir/flags.make
 CMakeFiles/Project.dir/Kod/Shelf.cpp.o: ../Kod/Shelf.cpp
@@ -369,6 +369,45 @@ CMakeFiles/Project.dir/Tests/FileOps_Tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project.dir/Tests/FileOps_Tests.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/e/Docs_Uniba/Prog 3/Project/Tests/FileOps_Tests.cpp" -o CMakeFiles/Project.dir/Tests/FileOps_Tests.cpp.s
 
+CMakeFiles/Project.dir/Tests/Orders_Adv_Tests.cpp.o: CMakeFiles/Project.dir/flags.make
+CMakeFiles/Project.dir/Tests/Orders_Adv_Tests.cpp.o: ../Tests/Orders_Adv_Tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/e/Docs_Uniba/Prog 3/Project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/Project.dir/Tests/Orders_Adv_Tests.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project.dir/Tests/Orders_Adv_Tests.cpp.o -c "/mnt/e/Docs_Uniba/Prog 3/Project/Tests/Orders_Adv_Tests.cpp"
+
+CMakeFiles/Project.dir/Tests/Orders_Adv_Tests.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project.dir/Tests/Orders_Adv_Tests.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/e/Docs_Uniba/Prog 3/Project/Tests/Orders_Adv_Tests.cpp" > CMakeFiles/Project.dir/Tests/Orders_Adv_Tests.cpp.i
+
+CMakeFiles/Project.dir/Tests/Orders_Adv_Tests.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project.dir/Tests/Orders_Adv_Tests.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/e/Docs_Uniba/Prog 3/Project/Tests/Orders_Adv_Tests.cpp" -o CMakeFiles/Project.dir/Tests/Orders_Adv_Tests.cpp.s
+
+CMakeFiles/Project.dir/Tests/BigTest.cpp.o: CMakeFiles/Project.dir/flags.make
+CMakeFiles/Project.dir/Tests/BigTest.cpp.o: ../Tests/BigTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/e/Docs_Uniba/Prog 3/Project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/Project.dir/Tests/BigTest.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project.dir/Tests/BigTest.cpp.o -c "/mnt/e/Docs_Uniba/Prog 3/Project/Tests/BigTest.cpp"
+
+CMakeFiles/Project.dir/Tests/BigTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project.dir/Tests/BigTest.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/e/Docs_Uniba/Prog 3/Project/Tests/BigTest.cpp" > CMakeFiles/Project.dir/Tests/BigTest.cpp.i
+
+CMakeFiles/Project.dir/Tests/BigTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project.dir/Tests/BigTest.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/e/Docs_Uniba/Prog 3/Project/Tests/BigTest.cpp" -o CMakeFiles/Project.dir/Tests/BigTest.cpp.s
+
+CMakeFiles/Project.dir/Kod/Fridge_GetSet.cpp.o: CMakeFiles/Project.dir/flags.make
+CMakeFiles/Project.dir/Kod/Fridge_GetSet.cpp.o: ../Kod/Fridge_GetSet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/e/Docs_Uniba/Prog 3/Project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/Project.dir/Kod/Fridge_GetSet.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project.dir/Kod/Fridge_GetSet.cpp.o -c "/mnt/e/Docs_Uniba/Prog 3/Project/Kod/Fridge_GetSet.cpp"
+
+CMakeFiles/Project.dir/Kod/Fridge_GetSet.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project.dir/Kod/Fridge_GetSet.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/e/Docs_Uniba/Prog 3/Project/Kod/Fridge_GetSet.cpp" > CMakeFiles/Project.dir/Kod/Fridge_GetSet.cpp.i
+
+CMakeFiles/Project.dir/Kod/Fridge_GetSet.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project.dir/Kod/Fridge_GetSet.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/e/Docs_Uniba/Prog 3/Project/Kod/Fridge_GetSet.cpp" -o CMakeFiles/Project.dir/Kod/Fridge_GetSet.cpp.s
+
 # Object files for target Project
 Project_OBJECTS = \
 "CMakeFiles/Project.dir/GoogleTest/gtest-death-test.cc.o" \
@@ -391,10 +430,13 @@ Project_OBJECTS = \
 "CMakeFiles/Project.dir/Kod/Fridge_put.cpp.o" \
 "CMakeFiles/Project.dir/Tests/Fridge_Base_Tests.cpp.o" \
 "CMakeFiles/Project.dir/Kod/Orders.cpp.o" \
-"CMakeFiles/Project.dir/Tests/Orders_Tests.cpp.o" \
+"CMakeFiles/Project.dir/Tests/Orders_Base_Tests.cpp.o" \
 "CMakeFiles/Project.dir/Kod/Shelf.cpp.o" \
 "CMakeFiles/Project.dir/Tests/Shelf_Tests.cpp.o" \
-"CMakeFiles/Project.dir/Tests/FileOps_Tests.cpp.o"
+"CMakeFiles/Project.dir/Tests/FileOps_Tests.cpp.o" \
+"CMakeFiles/Project.dir/Tests/Orders_Adv_Tests.cpp.o" \
+"CMakeFiles/Project.dir/Tests/BigTest.cpp.o" \
+"CMakeFiles/Project.dir/Kod/Fridge_GetSet.cpp.o"
 
 # External object files for target Project
 Project_EXTERNAL_OBJECTS =
@@ -419,13 +461,16 @@ Project: CMakeFiles/Project.dir/Kod/Fridge.cpp.o
 Project: CMakeFiles/Project.dir/Kod/Fridge_put.cpp.o
 Project: CMakeFiles/Project.dir/Tests/Fridge_Base_Tests.cpp.o
 Project: CMakeFiles/Project.dir/Kod/Orders.cpp.o
-Project: CMakeFiles/Project.dir/Tests/Orders_Tests.cpp.o
+Project: CMakeFiles/Project.dir/Tests/Orders_Base_Tests.cpp.o
 Project: CMakeFiles/Project.dir/Kod/Shelf.cpp.o
 Project: CMakeFiles/Project.dir/Tests/Shelf_Tests.cpp.o
 Project: CMakeFiles/Project.dir/Tests/FileOps_Tests.cpp.o
+Project: CMakeFiles/Project.dir/Tests/Orders_Adv_Tests.cpp.o
+Project: CMakeFiles/Project.dir/Tests/BigTest.cpp.o
+Project: CMakeFiles/Project.dir/Kod/Fridge_GetSet.cpp.o
 Project: CMakeFiles/Project.dir/build.make
 Project: CMakeFiles/Project.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/e/Docs_Uniba/Prog 3/Project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX executable Project"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/e/Docs_Uniba/Prog 3/Project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_28) "Linking CXX executable Project"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Project.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
